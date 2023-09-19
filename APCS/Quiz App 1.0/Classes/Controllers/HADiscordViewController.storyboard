@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Discord View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DiscordId" id="Y6W-OH-hqX" customClass="HADiscordViewController" customModule="AP_Comp_Sci_A" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVX-Qs-di9">
+                                <rect key="frame" x="20" y="681" width="374" height="60"/>
+                                <color key="backgroundColor" red="0.40274645370000001" green="0.40914647110000002" blue="0.76430633110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="bjT-AT-L5Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="35"/>
+                                <state key="normal" title="JOIN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="discordAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="8AE-Qt-KcP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Come join our discord server, where we have many supplemental AP materials and FREE weekly tutoring services!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="374" translatesAutoresizingMaskIntoConstraints="NO" id="MhH-wQ-GfU">
+                                <rect key="frame" x="20" y="304" width="374" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="187" id="w3w-kI-jYu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="GVX-Qs-di9" secondAttribute="bottom" constant="121" id="8M5-YZ-obe"/>
+                            <constraint firstItem="MhH-wQ-GfU" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="DmD-1K-EQG"/>
+                            <constraint firstItem="GVX-Qs-di9" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="pvn-Q0-elH"/>
+                            <constraint firstItem="GVX-Qs-di9" firstAttribute="top" secondItem="MhH-wQ-GfU" secondAttribute="bottom" constant="171" id="sTL-h6-Jbi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="discordButton" destination="GVX-Qs-di9" id="Tv7-OA-kvH"/>
+                        <outlet property="textLabel" destination="MhH-wQ-GfU" id="Noi-LX-40C"/>
+                        <outlet property="titleLabel" destination="x3A-cR-vkZ" id="LtD-GT-Oi8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AP Prep" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x3A-cR-vkZ">
+                    <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+</document>

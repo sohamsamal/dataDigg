@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Interface Settings</key>
+	<dict>
+		<key>App Text Color</key>
+		<string>#000000</string>
+		<key>Menu Screen Title</key>
+		<string>AP Comp Sci A</string>
+		<key>Categories Screen Title</key>
+		<string>Practice Test</string>
+		<key>About Screen Title</key>
+		<string>About</string>
+		<key>About Text Or URL</key>
+		<string>http://datadigg.com/about-3</string>
+	</dict>
+	<key>Features Settings</key>
+	<dict>
+		<key>Enable Ads Support</key>
+		<true/>
+		<key>Enable In App Purchase</key>
+		<false/>
+		<key>Remove Ads Product Identifier</key>
+		<string></string>
+		<key>Enable Game Center</key>
+		<false/>
+		<key>Data Input Format</key>
+		<string>json</string>
+		<key>Enable Shuffle Questions</key>
+		<false/>
+		<key>Enable Shuffle Answers</key>
+		<true/>
+		<key>Full Points Before Seconds</key>
+		<integer>120</integer>
+		<key>Highlight Correct Answer If answered Wrong</key>
+		<true/>
+		<key>Enable Timer Based Score</key>
+		<false/>
+		<key>Enable Parental Gate</key>
+		<false/>
+		<key>ApplicationiTunesLink</key>
+		<string></string>
+		<key>Enable Multiplayer Support</key>
+		<false/>
+		<key>Total Wins Leaderboard ID</key>
+		<string></string>
+		<key>Achievements For Wins</key>
+		<array>
+			<dict>
+				<key>Achievement ID</key>
+				<string>com.heavenapps.quizapp.Lieutenant</string>
+				<key>Wins</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>Achievement ID</key>
+				<string>com.heavenapps.quizapp.Captain</string>
+				<key>Wins</key>
+				<integer>20</integer>
+			</dict>
+			<dict>
+				<key>Achievement ID</key>
+				<string>com.heavenapps.quizapp.Major</string>
+				<key>Wins</key>
+				<integer>30</integer>
+			</dict>
+			<dict>
+				<key>Achievement ID</key>
+				<string>com.heavenapps.quizapp.ltColonel </string>
+				<key>Wins</key>
+				<integer>40</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

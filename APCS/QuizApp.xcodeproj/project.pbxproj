@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F28B5092418376C006AA4C0 /* HAGameViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F28B5082418376C006AA4C0 /* HAGameViewController4.xib */; };
+		0FBD740123D65D4800C6B93D /* HAGameViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBD740023D65D4800C6B93D /* HAGameViewController1.xib */; };
+		0FBD740323D664F900C6B93D /* HAGameViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FBD740223D664F900C6B93D /* HAGameViewController2.xib */; };
+		0FE6ABCF243ADB0600763EED /* HAGameViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE6ABCE243ADB0600763EED /* HAGameViewController5.xib */; };
+		18B6426D224930C7007582AB /* CustomControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6426C224930C7007582AB /* CustomControls.swift */; };
+		1A002E6720C265D400D04C30 /* HAInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A002E6520C265D400D04C30 /* HAInfoViewController.swift */; };
+		1A002E6820C265D400D04C30 /* HAInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A002E6620C265D400D04C30 /* HAInfoViewController.xib */; };
+		1A002E6B20C265E200D04C30 /* HASettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A002E6920C265E200D04C30 /* HASettingsViewController.swift */; };
+		1A002E6C20C265E200D04C30 /* HASettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A002E6A20C265E200D04C30 /* HASettingsViewController.xib */; };
+		1A40C63420A5E3430044C301 /* HAFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A40C63220A5E3430044C301 /* HAFinalViewController.swift */; };
+		1A40C63520A5E3430044C301 /* HAFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A40C63320A5E3430044C301 /* HAFinalViewController.xib */; };
+		1A40C66120A6D9250044C301 /* HAUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A40C66020A6D9250044C301 /* HAUtilities.swift */; };
+		1A49938420A01B320007B5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49938320A01B320007B5F1 /* AppDelegate.swift */; };
+		1A4993B520A01BC90007B5F1 /* HAQuizDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4993B420A01BC90007B5F1 /* HAQuizDataManager.swift */; };
+		1A4993BA20A028810007B5F1 /* HASettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4993B920A028810007B5F1 /* HASettings.swift */; };
+		1A4993BC20A028A30007B5F1 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A4993BB20A028A30007B5F1 /* Configuration.plist */; };
+		1A4993BF20A03FD40007B5F1 /* HAQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4993BE20A03FD40007B5F1 /* HAQuestion.swift */; };
+		1A4993C120A03FE00007B5F1 /* HACategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4993C020A03FE00007B5F1 /* HACategory.swift */; };
+		1A4993C520A0ABAB0007B5F1 /* HAMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4993C320A0ABAB0007B5F1 /* HAMainViewController.swift */; };
+		1A4993C620A0ABAB0007B5F1 /* HAMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4993C420A0ABAB0007B5F1 /* HAMainViewController.xib */; };
+		1A5D976B20A363320047C259 /* HAGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D976920A363320047C259 /* HAGameViewController.swift */; };
+		1A5D976C20A363320047C259 /* HAGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D976A20A363320047C259 /* HAGameViewController.xib */; };
+		1A5D976F20A363410047C259 /* HACategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D976D20A363410047C259 /* HACategoriesViewController.swift */; };
+		1A5D977020A363410047C259 /* HACategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D976E20A363410047C259 /* HACategoriesViewController.xib */; };
+		1A5D977320A372760047C259 /* HACategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D977220A372760047C259 /* HACategoryCell.swift */; };
+		1A5D977520A37A5E0047C259 /* HACategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D977420A37A5E0047C259 /* HACategoryCell.xib */; };
+		1A5D977720A3F3D00047C259 /* HAConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D977620A3F3D00047C259 /* HAConstants.swift */; };
+		1A7451C520CADEB2003061E7 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7451C420CADEB2003061E7 /* UIImageViewExtensions.swift */; };
+		1A97E12821577C1B00A43F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A97E12721577C1B00A43F77 /* Assets.xcassets */; };
+		1AA75654215B652200AF4025 /* QuizApp_Starter_Kit_All_In_One_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA75653215B652200AF4025 /* QuizApp_Starter_Kit_All_In_One_1_0Tests.swift */; };
+		1AC0371520B3C3F900406A51 /* HAPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0371320B3C3F900406A51 /* HAPurchaseViewController.swift */; };
+		1AC0371620B3C3F900406A51 /* HAPurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC0371420B3C3F900406A51 /* HAPurchaseViewController.xib */; };
+		1AC0371920B3F42900406A51 /* HAScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC0371720B3F42900406A51 /* HAScoreTableViewCell.swift */; };
+		1AC0371A20B3F42900406A51 /* HAScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC0371820B3F42900406A51 /* HAScoreTableViewCell.xib */; };
+		1AD7C59C212E80CB0077B91E /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7C598212E80CB0077B91E /* wrong.wav */; };
+		1AD7C59D212E80CB0077B91E /* right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7C599212E80CB0077B91E /* right.wav */; };
+		1AD7C59E212E80CB0077B91E /* background_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7C59A212E80CB0077B91E /* background_music.wav */; };
+		1AD7C59F212E80CB0077B91E /* tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7C59B212E80CB0077B91E /* tap.mp3 */; };
+		1AD7C9BF20ED160B00FF0DD8 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7C9BE20ED160B00FF0DD8 /* String+Extensions.swift */; };
+		1AFCC50E2140EC410085F2B5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCC50C2140EC410085F2B5 /* Reachability.swift */; };
+		1AFDE30A20BAA62500A1B79F /* HACustomControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDE30920BAA62500A1B79F /* HACustomControls.swift */; };
+		4035CD0526BADDE40074C723 /* HADiscordViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4035CD0426BADDE30074C723 /* HADiscordViewController.storyboard */; };
+		4035CD0726BADDED0074C723 /* HADiscordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035CD0626BADDED0074C723 /* HADiscordViewController.swift */; };
+		60E2367D4846F7086C4C9E89 /* Pods_QuizApp_Starter_Kit_All_In_One_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBFDD770C05BAD98EC9BBF5 /* Pods_QuizApp_Starter_Kit_All_In_One_1_0.framework */; };
+		9C1EAC9221ABA52700A2E600 /* HAStatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EAC9121ABA52700A2E600 /* HAStatViewController.xib */; };
+		9C30BA2D21C759570082276C /* Quiz Data in Resources */ = {isa = PBXBuildFile; fileRef = 9C30BA2C21C759570082276C /* Quiz Data */; };
+		9C479019238A100700776748 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA7C4B12135253C006DF468 /* GoogleMobileAds.framework */; };
+		9C4AB3CE21A252EB0039A831 /* HAStatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4AB3CD21A252EB0039A831 /* HAStatViewController.swift */; };
+		B1667DDB22A112B500DF013B /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1667DDA22A112B500DF013B /* StoreKitManager.swift */; };
+		B1667DDD22A112ED00DF013B /* QuizProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1667DDC22A112ED00DF013B /* QuizProducts.swift */; };
+		B1E7DF81224381BB009B5C1D /* HAPurchaseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7DF80224381BB009B5C1D /* HAPurchaseListViewController.swift */; };
+		B1E7DF8322438488009B5C1D /* HAPurchaseList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E7DF8222438488009B5C1D /* HAPurchaseList.storyboard */; };
+		B1E7DF85224384D0009B5C1D /* PurchaseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7DF84224384D0009B5C1D /* PurchaseViewCell.swift */; };
+		B1E7DF8722441A3A009B5C1D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E7DF8622441A3A009B5C1D /* StoreKit.framework */; };
+		B1E7DF892244C659009B5C1D /* NetworkActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7DF882244C659009B5C1D /* NetworkActivityIndicatorManager.swift */; };
+		B1E7DF8B2244F6C8009B5C1D /* HAStoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7DF8A2244F6C8009B5C1D /* HAStoreKitManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AA75656215B652200AF4025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A49937820A01B320007B5F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A49937F20A01B320007B5F1;
+			remoteInfo = "QuizApp Starter Kit All In One 1.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F28B5082418376C006AA4C0 /* HAGameViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HAGameViewController4.xib; sourceTree = "<group>"; };
+		0FBD740023D65D4800C6B93D /* HAGameViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HAGameViewController1.xib; sourceTree = "<group>"; };
+		0FBD740223D664F900C6B93D /* HAGameViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HAGameViewController2.xib; sourceTree = "<group>"; };
+		0FE6ABCE243ADB0600763EED /* HAGameViewController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HAGameViewController5.xib; sourceTree = "<group>"; };
+		18B6426C224930C7007582AB /* CustomControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControls.swift; sourceTree = "<group>"; };
+		1A002E6520C265D400D04C30 /* HAInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAInfoViewController.swift; sourceTree = "<group>"; };
+		1A002E6620C265D400D04C30 /* HAInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HAInfoViewController.xib; sourceTree = "<group>"; };
+		1A002E6920C265E200D04C30 /* HASettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HASettingsViewController.swift; sourceTree = "<group>"; };
+		1A002E6A20C265E200D04C30 /* HASettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HASettingsViewController.xib; sourceTree = "<group>"; };
+		1A40C63220A5E3430044C301 /* HAFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAFinalViewController.swift; sourceTree = "<group>"; };
+		1A40C63320A5E3430044C301 /* HAFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HAFinalViewController.xib; sourceTree = "<group>"; };
+		1A40C66020A6D9250044C301 /* HAUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAUtilities.swift; sourceTree = "<group>"; };
+		1A40C6BE20AB36040044C301 /* QuizApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuizApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A49938020A01B320007B5F1 /* AP Comp Sci A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP Comp Sci A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A49938320A01B320007B5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A49938D20A01B490007B5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A49938F20A01B490007B5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A4993B420A01BC90007B5F1 /* HAQuizDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAQuizDataManager.swift; sourceTree = "<group>"; };
+		1A4993B920A028810007B5F1 /* HASettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HASettings.swift; sourceTree = "<group>"; };
+		1A4993BB20A028A30007B5F1 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		1A4993BE20A03FD40007B5F1 /* HAQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAQuestion.swift; sourceTree = "<group>"; };
+		1A4993C020A03FE00007B5F1 /* HACategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACategory.swift; sourceTree = "<group>"; };
+		1A4993C320A0ABAB0007B5F1 /* HAMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAMainViewController.swift; sourceTree = "<group>"; };
+		1A4993C420A0ABAB0007B5F1 /* HAMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HAMainViewController.xib; sourceTree = "<group>"; };
+		1A5D976920A363320047C259 /* HAGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAGameViewController.swift; sourceTree = "<group>"; };
+		1A5D976A20A363320047C259 /* HAGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HAGameViewController.xib; sourceTree = "<group>"; };
+		1A5D976D20A363410047C259 /* HACategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACategoriesViewController.swift; sourceTree = "<group>"; };
+		1A5D976E20A363410047C259 /* HACategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HACategoriesViewController.xib; sourceTree = "<group>"; };
+		1A5D977220A372760047C259 /* HACategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACategoryCell.swift; sourceTree = "<group>"; };
+		1A5D977420A37A5E0047C259 /* HACategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HACategoryCell.xib; sourceTree = "<group>"; };
+		1A5D977620A3F3D00047C259 /* HAConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAConstants.swift; sourceTree = "<group>"; };
+		1A7451C420CADEB2003061E7 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		1A97E12721577C1B00A43F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AA75651215B652200AF4025 /* QuizApp Starter Kit All In One 1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuizApp Starter Kit All In One 1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA75653215B652200AF4025 /* QuizApp_Starter_Kit_All_In_One_1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizApp_Starter_Kit_All_In_One_1_0Tests.swift; sourceTree = "<group>"; };
+		1AA75655215B652200AF4025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA7C4B12135253C006DF468 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		1AC0371320B3C3F900406A51 /* HAPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAPurchaseViewController.swift; sourceTree = "<group>"; };
+		1AC0371420B3C3F900406A51 /* HAPurchaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HAPurchaseViewController.xib; sourceTree = "<group>"; };
+		1AC0371720B3F42900406A51 /* HAScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAScoreTableViewCell.swift; sourceTree = "<group>"; };
+		1AC0371820B3F42900406A51 /* HAScoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HAScoreTableViewCell.xib; sourceTree = "<group>"; };
+		1AD7C598212E80CB0077B91E /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
+		1AD7C599212E80CB0077B91E /* right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.wav; sourceTree = "<group>"; };
+		1AD7C59A212E80CB0077B91E /* background_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = background_music.wav; sourceTree = "<group>"; };
+		1AD7C59B212E80CB0077B91E /* tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tap.mp3; sourceTree = "<group>"; };
+		1AD7C9BE20ED160B00FF0DD8 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		1AFCC50C2140EC410085F2B5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1AFCC50D2140EC410085F2B5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1AFDE30920BAA62500A1B79F /* HACustomControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HACustomControls.swift; sourceTree = "<group>"; };
+		1AFDE30B20BC87D300A1B79F /* QuizApp Starter Kit All In One 1.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "QuizApp Starter Kit All In One 1.0.entitlements"; sourceTree = "<group>"; };
+		4035CD0426BADDE30074C723 /* HADiscordViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HADiscordViewController.storyboard; sourceTree = "<group>"; };
+		4035CD0626BADDED0074C723 /* HADiscordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HADiscordViewController.swift; sourceTree = "<group>"; };
+		521E2A233FB2E64AF214A5D8 /* Pods-QuizApp Starter Kit All In One 1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp Starter Kit All In One 1.0.release.xcconfig"; path = "Target Support Files/Pods-QuizApp Starter Kit All In One 1.0/Pods-QuizApp Starter Kit All In One 1.0.release.xcconfig"; sourceTree = "<group>"; };
+		9C1EAC9121ABA52700A2E600 /* HAStatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HAStatViewController.xib; sourceTree = "<group>"; };
+		9C30BA2C21C759570082276C /* Quiz Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Quiz Data"; sourceTree = "<group>"; };
+		9C4AB3CD21A252EB0039A831 /* HAStatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAStatViewController.swift; sourceTree = "<group>"; };
+		B1667DDA22A112B500DF013B /* StoreKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		B1667DDC22A112ED00DF013B /* QuizProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizProducts.swift; sourceTree = "<group>"; };
+		B1E7DF80224381BB009B5C1D /* HAPurchaseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAPurchaseListViewController.swift; sourceTree = "<group>"; };
+		B1E7DF8222438488009B5C1D /* HAPurchaseList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HAPurchaseList.storyboard; sourceTree = "<group>"; };
+		B1E7DF84224384D0009B5C1D /* PurchaseViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewCell.swift; sourceTree = "<group>"; };
+		B1E7DF8622441A3A009B5C1D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B1E7DF882244C659009B5C1D /* NetworkActivityIndicatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityIndicatorManager.swift; sourceTree = "<group>"; };
+		B1E7DF8A2244F6C8009B5C1D /* HAStoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAStoreKitManager.swift; sourceTree = "<group>"; };
+		BF480754B263889F556F5750 /* Pods-QuizApp Starter Kit All In One 1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp Starter Kit All In One 1.0.debug.xcconfig"; path = "Target Support Files/Pods-QuizApp Starter Kit All In One 1.0/Pods-QuizApp Starter Kit All In One 1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		CCBFDD770C05BAD98EC9BBF5 /* Pods_QuizApp_Starter_Kit_All_In_One_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizApp_Starter_Kit_All_In_One_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A49937D20A01B320007B5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C479019238A100700776748 /* GoogleMobileAds.framework in Frameworks */,
+				B1E7DF8722441A3A009B5C1D /* StoreKit.framework in Frameworks */,
+				60E2367D4846F7086C4C9E89 /* Pods_QuizApp_Starter_Kit_All_In_One_1_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA7564E215B652200AF4025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A40C6C220AC4AF20044C301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E7DF8622441A3A009B5C1D /* StoreKit.framework */,
+				1AA7C4B12135253C006DF468 /* GoogleMobileAds.framework */,
+				CCBFDD770C05BAD98EC9BBF5 /* Pods_QuizApp_Starter_Kit_All_In_One_1_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A49937720A01B320007B5F1 = {
+			isa = PBXGroup;
+			children = (
+				1AFDE30B20BC87D300A1B79F /* QuizApp Starter Kit All In One 1.0.entitlements */,
+				1A49938220A01B320007B5F1 /* Quiz App 1.0 */,
+				1AA75652215B652200AF4025 /* QuizApp Starter Kit All In One 1.0Tests */,
+				1A49938120A01B320007B5F1 /* Products */,
+				1A40C6C220AC4AF20044C301 /* Frameworks */,
+				A83991BF9FEC376C7F46277B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1A49938120A01B320007B5F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A49938020A01B320007B5F1 /* AP Comp Sci A.app */,
+				1AA75651215B652200AF4025 /* QuizApp Starter Kit All In One 1.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A49938220A01B320007B5F1 /* Quiz App 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				1A7451C320CADE9B003061E7 /* Extensions */,
+				1A4993B620A01D400007B5F1 /* Resources */,
+				1A4993B120A01BA80007B5F1 /* Classes */,
+				1A49938320A01B320007B5F1 /* AppDelegate.swift */,
+				1A97E12721577C1B00A43F77 /* Assets.xcassets */,
+				1A49938C20A01B490007B5F1 /* LaunchScreen.storyboard */,
+				1A49938F20A01B490007B5F1 /* Info.plist */,
+				1A40C6BE20AB36040044C301 /* QuizApp-Bridging-Header.h */,
+			);
+			path = "Quiz App 1.0";
+			sourceTree = "<group>";
+		};
+		1A4993B120A01BA80007B5F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1AD2E4E5214567CB000324AC /* Third party */,
+				1A4993C220A0AB840007B5F1 /* Controllers */,
+				1A5D977120A3725D0047C259 /* Custom cells */,
+				1A4993BD20A03FC50007B5F1 /* Model */,
+				1A4993B220A01BA80007B5F1 /* Singleton */,
+				1A4993B320A01BA80007B5F1 /* Utilities */,
+				B1667DD922A1127400DF013B /* StoreKit */,
+				1A5D977620A3F3D00047C259 /* HAConstants.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1A4993B220A01BA80007B5F1 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				1A4993B420A01BC90007B5F1 /* HAQuizDataManager.swift */,
+				1A4993B920A028810007B5F1 /* HASettings.swift */,
+				B1E7DF8A2244F6C8009B5C1D /* HAStoreKitManager.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		1A4993B320A01BA80007B5F1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18B6426C224930C7007582AB /* CustomControls.swift */,
+				1AFCC50D2140EC410085F2B5 /* Reachability.h */,
+				1AFCC50C2140EC410085F2B5 /* Reachability.swift */,
+				1A40C66020A6D9250044C301 /* HAUtilities.swift */,
+				1AFDE30920BAA62500A1B79F /* HACustomControls.swift */,
+				B1E7DF882244C659009B5C1D /* NetworkActivityIndicatorManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1A4993B620A01D400007B5F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C30BA2C21C759570082276C /* Quiz Data */,
+				1AD7C59A212E80CB0077B91E /* background_music.wav */,
+				1AD7C599212E80CB0077B91E /* right.wav */,
+				1AD7C59B212E80CB0077B91E /* tap.mp3 */,
+				1AD7C598212E80CB0077B91E /* wrong.wav */,
+				1A4993BB20A028A30007B5F1 /* Configuration.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A4993BD20A03FC50007B5F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A4993BE20A03FD40007B5F1 /* HAQuestion.swift */,
+				1A4993C020A03FE00007B5F1 /* HACategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A4993C220A0AB840007B5F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A4993C320A0ABAB0007B5F1 /* HAMainViewController.swift */,
+				1A4993C420A0ABAB0007B5F1 /* HAMainViewController.xib */,
+				1A5D976D20A363410047C259 /* HACategoriesViewController.swift */,
+				1A5D976E20A363410047C259 /* HACategoriesViewController.xib */,
+				1A5D976920A363320047C259 /* HAGameViewController.swift */,
+				1A5D976A20A363320047C259 /* HAGameViewController.xib */,
+				0FBD740023D65D4800C6B93D /* HAGameViewController1.xib */,
+				0FBD740223D664F900C6B93D /* HAGameViewController2.xib */,
+				0F28B5082418376C006AA4C0 /* HAGameViewController4.xib */,
+				0FE6ABCE243ADB0600763EED /* HAGameViewController5.xib */,
+				1A40C63220A5E3430044C301 /* HAFinalViewController.swift */,
+				1A40C63320A5E3430044C301 /* HAFinalViewController.xib */,
+				4035CD0426BADDE30074C723 /* HADiscordViewController.storyboard */,
+				9C1EAC9121ABA52700A2E600 /* HAStatViewController.xib */,
+				1AC0371320B3C3F900406A51 /* HAPurchaseViewController.swift */,
+				1AC0371420B3C3F900406A51 /* HAPurchaseViewController.xib */,
+				4035CD0626BADDED0074C723 /* HADiscordViewController.swift */,
+				1A002E6520C265D400D04C30 /* HAInfoViewController.swift */,
+				1A002E6620C265D400D04C30 /* HAInfoViewController.xib */,
+				1A002E6920C265E200D04C30 /* HASettingsViewController.swift */,
+				1A002E6A20C265E200D04C30 /* HASettingsViewController.xib */,
+				9C4AB3CD21A252EB0039A831 /* HAStatViewController.swift */,
+				B1E7DF80224381BB009B5C1D /* HAPurchaseListViewController.swift */,
+				B1E7DF8222438488009B5C1D /* HAPurchaseList.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1A5D977120A3725D0047C259 /* Custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				1A5D977220A372760047C259 /* HACategoryCell.swift */,
+				1A5D977420A37A5E0047C259 /* HACategoryCell.xib */,
+				1AC0371720B3F42900406A51 /* HAScoreTableViewCell.swift */,
+				1AC0371820B3F42900406A51 /* HAScoreTableViewCell.xib */,
+				B1E7DF84224384D0009B5C1D /* PurchaseViewCell.swift */,
+			);
+			path = "Custom cells";
+			sourceTree = "<group>";
+		};
+		1A7451C320CADE9B003061E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A7451C420CADEB2003061E7 /* UIImageViewExtensions.swift */,
+				1AD7C9BE20ED160B00FF0DD8 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1AA75652215B652200AF4025 /* QuizApp Starter Kit All In One 1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1AA75653215B652200AF4025 /* QuizApp_Starter_Kit_All_In_One_1_0Tests.swift */,
+				1AA75655215B652200AF4025 /* Info.plist */,
+			);
+			path = "QuizApp Starter Kit All In One 1.0Tests";
+			sourceTree = "<group>";
+		};
+		1AD2E4E5214567CB000324AC /* Third party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third party";
+			sourceTree = "<group>";
+		};
+		A83991BF9FEC376C7F46277B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF480754B263889F556F5750 /* Pods-QuizApp Starter Kit All In One 1.0.debug.xcconfig */,
+				521E2A233FB2E64AF214A5D8 /* Pods-QuizApp Starter Kit All In One 1.0.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1667DD922A1127400DF013B /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				B1667DDC22A112ED00DF013B /* QuizProducts.swift */,
+				B1667DDA22A112B500DF013B /* StoreKitManager.swift */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A49937F20A01B320007B5F1 /* QuizApp Starter Kit All In One 1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4993A820A01B490007B5F1 /* Build configuration list for PBXNativeTarget "QuizApp Starter Kit All In One 1.0" */;
+			buildPhases = (
+				DF1FA99DB01D946EA8F91E57 /* [CP] Check Pods Manifest.lock */,
+				1A49937C20A01B320007B5F1 /* Sources */,
+				1A49937D20A01B320007B5F1 /* Frameworks */,
+				1A49937E20A01B320007B5F1 /* Resources */,
+				50ED3636D3F8CE9A91CA5F49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuizApp Starter Kit All In One 1.0";
+			productName = "Quiz App Starter Kit All In One 1.0";
+			productReference = 1A49938020A01B320007B5F1 /* AP Comp Sci A.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AA75650215B652200AF4025 /* QuizApp Starter Kit All In One 1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA75658215B652300AF4025 /* Build configuration list for PBXNativeTarget "QuizApp Starter Kit All In One 1.0Tests" */;
+			buildPhases = (
+				1AA7564D215B652200AF4025 /* Sources */,
+				1AA7564E215B652200AF4025 /* Frameworks */,
+				1AA7564F215B652200AF4025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AA75657215B652200AF4025 /* PBXTargetDependency */,
+			);
+			name = "QuizApp Starter Kit All In One 1.0Tests";
+			productName = "QuizApp Starter Kit All In One 1.0Tests";
+			productReference = 1AA75651215B652200AF4025 /* QuizApp Starter Kit All In One 1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A49937820A01B320007B5F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Heavenapps;
+				TargetAttributes = {
+					1A49937F20A01B320007B5F1 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					1AA75650215B652200AF4025 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1A49937F20A01B320007B5F1;
+					};
+				};
+			};
+			buildConfigurationList = 1A49937B20A01B320007B5F1 /* Build configuration list for PBXProject "QuizApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A49937720A01B320007B5F1;
+			productRefGroup = 1A49938120A01B320007B5F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A49937F20A01B320007B5F1 /* QuizApp Starter Kit All In One 1.0 */,
+				1AA75650215B652200AF4025 /* QuizApp Starter Kit All In One 1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A49937E20A01B320007B5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4993C620A0ABAB0007B5F1 /* HAMainViewController.xib in Resources */,
+				1AD7C59D212E80CB0077B91E /* right.wav in Resources */,
+				1A5D977520A37A5E0047C259 /* HACategoryCell.xib in Resources */,
+				9C30BA2D21C759570082276C /* Quiz Data in Resources */,
+				1A002E6C20C265E200D04C30 /* HASettingsViewController.xib in Resources */,
+				0FBD740123D65D4800C6B93D /* HAGameViewController1.xib in Resources */,
+				1AD7C59E212E80CB0077B91E /* background_music.wav in Resources */,
+				0F28B5092418376C006AA4C0 /* HAGameViewController4.xib in Resources */,
+				1AD7C59F212E80CB0077B91E /* tap.mp3 in Resources */,
+				1A4993BC20A028A30007B5F1 /* Configuration.plist in Resources */,
+				1A5D976C20A363320047C259 /* HAGameViewController.xib in Resources */,
+				1A97E12821577C1B00A43F77 /* Assets.xcassets in Resources */,
+				1A002E6820C265D400D04C30 /* HAInfoViewController.xib in Resources */,
+				1AC0371A20B3F42900406A51 /* HAScoreTableViewCell.xib in Resources */,
+				9C1EAC9221ABA52700A2E600 /* HAStatViewController.xib in Resources */,
+				B1E7DF8322438488009B5C1D /* HAPurchaseList.storyboard in Resources */,
+				1AD7C59C212E80CB0077B91E /* wrong.wav in Resources */,
+				4035CD0526BADDE40074C723 /* HADiscordViewController.storyboard in Resources */,
+				0FE6ABCF243ADB0600763EED /* HAGameViewController5.xib in Resources */,
+				0FBD740323D664F900C6B93D /* HAGameViewController2.xib in Resources */,
+				1AC0371620B3C3F900406A51 /* HAPurchaseViewController.xib in Resources */,
+				1A5D977020A363410047C259 /* HACategoriesViewController.xib in Resources */,
+				1A40C63520A5E3430044C301 /* HAFinalViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA7564F215B652200AF4025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50ED3636D3F8CE9A91CA5F49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuizApp Starter Kit All In One 1.0/Pods-QuizApp Starter Kit All In One 1.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuizApp Starter Kit All In One 1.0/Pods-QuizApp Starter Kit All In One 1.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuizApp Starter Kit All In One 1.0/Pods-QuizApp Starter Kit All In One 1.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1FA99DB01D946EA8F91E57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuizApp Starter Kit All In One 1.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A49937C20A01B320007B5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A40C63420A5E3430044C301 /* HAFinalViewController.swift in Sources */,
+				1A5D977720A3F3D00047C259 /* HAConstants.swift in Sources */,
+				1AD7C9BF20ED160B00FF0DD8 /* String+Extensions.swift in Sources */,
+				1A4993BA20A028810007B5F1 /* HASettings.swift in Sources */,
+				1AC0371520B3C3F900406A51 /* HAPurchaseViewController.swift in Sources */,
+				1A5D976F20A363410047C259 /* HACategoriesViewController.swift in Sources */,
+				4035CD0726BADDED0074C723 /* HADiscordViewController.swift in Sources */,
+				1A4993BF20A03FD40007B5F1 /* HAQuestion.swift in Sources */,
+				1A5D977320A372760047C259 /* HACategoryCell.swift in Sources */,
+				B1E7DF81224381BB009B5C1D /* HAPurchaseListViewController.swift in Sources */,
+				9C4AB3CE21A252EB0039A831 /* HAStatViewController.swift in Sources */,
+				B1E7DF8B2244F6C8009B5C1D /* HAStoreKitManager.swift in Sources */,
+				B1E7DF85224384D0009B5C1D /* PurchaseViewCell.swift in Sources */,
+				1A4993B520A01BC90007B5F1 /* HAQuizDataManager.swift in Sources */,
+				1AC0371920B3F42900406A51 /* HAScoreTableViewCell.swift in Sources */,
+				B1E7DF892244C659009B5C1D /* NetworkActivityIndicatorManager.swift in Sources */,
+				1A002E6B20C265E200D04C30 /* HASettingsViewController.swift in Sources */,
+				1A40C66120A6D9250044C301 /* HAUtilities.swift in Sources */,
+				1A4993C120A03FE00007B5F1 /* HACategory.swift in Sources */,
+				B1667DDD22A112ED00DF013B /* QuizProducts.swift in Sources */,
+				1A002E6720C265D400D04C30 /* HAInfoViewController.swift in Sources */,
+				1AFDE30A20BAA62500A1B79F /* HACustomControls.swift in Sources */,
+				1A7451C520CADEB2003061E7 /* UIImageViewExtensions.swift in Sources */,
+				18B6426D224930C7007582AB /* CustomControls.swift in Sources */,
+				B1667DDB22A112B500DF013B /* StoreKitManager.swift in Sources */,
+				1A49938420A01B320007B5F1 /* AppDelegate.swift in Sources */,
+				1A4993C520A0ABAB0007B5F1 /* HAMainViewController.swift in Sources */,
+				1A5D976B20A363320047C259 /* HAGameViewController.swift in Sources */,
+				1AFCC50E2140EC410085F2B5 /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA7564D215B652200AF4025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA75654215B652200AF4025 /* QuizApp_Starter_Kit_All_In_One_1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AA75657215B652200AF4025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A49937F20A01B320007B5F1 /* QuizApp Starter Kit All In One 1.0 */;
+			targetProxy = 1AA75656215B652200AF4025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A49938C20A01B490007B5F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A49938D20A01B490007B5F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A4993A620A01B490007B5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A4993A720A01B490007B5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A4993A920A01B490007B5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF480754B263889F556F5750 /* Pods-QuizApp Starter Kit All In One 1.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "QuizApp Starter Kit All In One 1.0.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7FUU959Z83;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Quiz\\ App\\ 1.0",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Quiz App 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datadigg.compscience;
+				PRODUCT_NAME = "AP Comp Sci A";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quiz App 1.0/QuizApp-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A4993AA20A01B490007B5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521E2A233FB2E64AF214A5D8 /* Pods-QuizApp Starter Kit All In One 1.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "QuizApp Starter Kit All In One 1.0.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7FUU959Z83;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Quiz\\ App\\ 1.0",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Quiz App 1.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.datadigg.compscience;
+				PRODUCT_NAME = "AP Comp Sci A";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quiz App 1.0/QuizApp-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AA75659215B652300AF4025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7FUU959Z83;
+				INFOPLIST_FILE = "QuizApp Starter Kit All In One 1.0Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "HA.QuizApp-Starter-Kit-All-In-One-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp Starter Kit All In One 1.0.app/QuizApp Starter Kit All In One 1.0";
+			};
+			name = Debug;
+		};
+		1AA7565A215B652300AF4025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7FUU959Z83;
+				INFOPLIST_FILE = "QuizApp Starter Kit All In One 1.0Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "HA.QuizApp-Starter-Kit-All-In-One-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp Starter Kit All In One 1.0.app/QuizApp Starter Kit All In One 1.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A49937B20A01B320007B5F1 /* Build configuration list for PBXProject "QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4993A620A01B490007B5F1 /* Debug */,
+				1A4993A720A01B490007B5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A4993A820A01B490007B5F1 /* Build configuration list for PBXNativeTarget "QuizApp Starter Kit All In One 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4993A920A01B490007B5F1 /* Debug */,
+				1A4993AA20A01B490007B5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA75658215B652300AF4025 /* Build configuration list for PBXNativeTarget "QuizApp Starter Kit All In One 1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA75659215B652300AF4025 /* Debug */,
+				1AA7565A215B652300AF4025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A49937820A01B320007B5F1 /* Project object */;
+}

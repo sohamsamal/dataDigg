@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>5</string>
+			<key>options</key>
+			<array>
+				<string>Option</string>
+				<string>Option</string>
+				<string>Option</string>
+				<string>Option</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Question</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
