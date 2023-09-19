@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HAStatViewController" customModule="Computer_Science_Prep_Quiz" customModuleProvider="target">
+            <connections>
+                <outlet property="firstTableView" destination="9Bd-eo-9hD" id="TeU-ve-fgu"/>
+                <outlet property="homeButton" destination="lBa-uc-iVL" id="IBx-kf-EAG"/>
+                <outlet property="secondTableView" destination="91H-oN-t5f" id="V1i-bj-mNt"/>
+                <outlet property="shareButton" destination="HAT-YG-g0f" id="H7S-r0-hlw"/>
+                <outlet property="titleView" destination="fZg-PD-vZb" id="B7s-Fg-BMO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="youScoredLabel" destination="wIW-de-oPf" id="Je3-2A-gVa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Current Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTC-U9-2hf" customClass="HACustomLabel" customModule="Computer_Science_Prep_Quiz" customModuleProvider="target">
+                    <rect key="frame" x="44" y="49" width="808" height="30.5"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
+                    </variation>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Bd-eo-9hD">
+                    <rect key="frame" x="60" y="90" width="776" height="0.0"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="u6t-qj-nyx"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="uIK-Se-yLw"/>
+                        <outlet property="delegate" destination="-1" id="Z0h-rq-9Or"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="You scored 0 points" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wIW-de-oPf" customClass="HACustomLabel" customModule="Computer_Science_Prep_Quiz" customModuleProvider="target">
+                    <rect key="frame" x="60" y="110" width="776" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="p9O-18-YjF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="25"/>
+                    <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="High Scores" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDh-Mo-RX5" customClass="HACustomLabel" customModule="Computer_Science_Prep_Quiz" customModuleProvider="target">
+                    <rect key="frame" x="60" y="160" width="776" height="30.5"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
+                    </variation>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="91H-oN-t5f">
+                    <rect key="frame" x="60" y="373" width="776" height="0.0"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="155" id="wSj-Kp-6Nm"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="6dE-Bv-dpW"/>
+                        <outlet property="delegate" destination="-1" id="B1N-1L-EWO"/>
+                    </connections>
+                </tableView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="f2d-GI-4mC">
+                    <rect key="frame" x="404.5" y="383" width="87.5" height="0.0"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAT-YG-g0f" customClass="HACustomButton" customModule="Computer_Science_Prep_Quiz" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="87.5" height="0.0"/>
+                            <state key="normal" backgroundImage="share_icon">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="shareAction:" destination="-1" eventType="touchUpInside" id="I5d-Fe-ZTk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="f2d-GI-4mC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0pz-Uy-biL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9Bd-eo-9hD" secondAttribute="trailing" constant="16" id="5IE-Cj-4ln"/>
+                <constraint firstItem="f2d-GI-4mC" firstAttribute="top" secondItem="91H-oN-t5f" secondAttribute="bottom" constant="10" id="8Dp-59-lxF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="f2d-GI-4mC" secondAttribute="bottom" constant="10" id="Cg6-DO-FW6"/>
+                <constraint firstItem="cTC-U9-2hf" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="EOH-XA-dQ3"/>
+                <constraint firstItem="vDh-Mo-RX5" firstAttribute="top" secondItem="wIW-de-oPf" secondAttribute="bottom" constant="15" id="Ish-QO-I9f"/>
+                <constraint firstItem="wIW-de-oPf" firstAttribute="top" secondItem="9Bd-eo-9hD" secondAttribute="bottom" constant="20" id="KC2-VX-Ble"/>
+                <constraint firstItem="cTC-U9-2hf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Myy-f4-71o"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wIW-de-oPf" secondAttribute="trailing" constant="16" id="Pfo-1k-5v8"/>
+                <constraint firstItem="91H-oN-t5f" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Rto-Mg-YmB"/>
+                <constraint firstItem="9Bd-eo-9hD" firstAttribute="top" secondItem="cTC-U9-2hf" secondAttribute="bottom" constant="10.5" id="Vhz-Wa-WU2"/>
+                <constraint firstItem="91H-oN-t5f" firstAttribute="top" secondItem="vDh-Mo-RX5" secondAttribute="bottom" constant="9.5" id="c5z-gL-xoP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="91H-oN-t5f" secondAttribute="trailing" constant="16" id="dZL-a6-o5t"/>
+                <constraint firstItem="wIW-de-oPf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="iGe-Hg-p4P"/>
+                <constraint firstItem="9Bd-eo-9hD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="kxQ-JG-lZR"/>
+                <constraint firstItem="vDh-Mo-RX5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="npu-PR-90c"/>
+                <constraint firstItem="cTC-U9-2hf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="5" id="pNe-F8-9V4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vDh-Mo-RX5" secondAttribute="trailing" constant="16" id="pak-oa-dsH"/>
+                <constraint firstItem="9Bd-eo-9hD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="tTm-IM-zoY"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-1027.5" y="-539.78873239436621"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose one" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fZg-PD-vZb" customClass="HACustomLabel" customModule="Computer_Science_Prep_Quiz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="245" height="47"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="23"/>
+            <nil key="textColor"/>
+            <nil key="highlightedColor"/>
+            <variation key="heightClass=regular-widthClass=regular">
+                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
+            </variation>
+            <point key="canvasLocation" x="-814" y="-739"/>
+        </label>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lBa-uc-iVL" userLabel="home button">
+            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="15"/>
+            <state key="normal" backgroundImage="home_icon">
+                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            </state>
+            <state key="highlighted">
+                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            </state>
+            <connections>
+                <action selector="homeAction:" destination="-1" eventType="touchUpInside" id="Pxl-Qs-RXk"/>
+            </connections>
+        </button>
+    </objects>
+    <resources>
+        <image name="home_icon" width="27" height="27"/>
+        <image name="share_icon" width="87.5" height="87.5"/>
+    </resources>
+</document>

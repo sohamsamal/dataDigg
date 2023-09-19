@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Categories</key>
+	<array>
+		<dict>
+			<key>category_color</key>
+			<string>#D1AF78</string>
+			<key>category_description</key>
+			<string>Free Questions
+</string>
+			<key>category_id</key>
+			<string>1</string>
+			<key>category_name</key>
+			<string>Category</string>
+			<key>category_questions_max_limit</key>
+			<string>10</string>
+			<key>timer_required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>category_color</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;category_color&lt;/key&gt;
+	&lt;string&gt;#D1AF78&lt;/string&gt;
+	&lt;key&gt;category_description&lt;/key&gt;
+	&lt;string&gt;Hi
+&lt;/string&gt;
+	&lt;key&gt;category_id&lt;/key&gt;
+	&lt;string&gt;1&lt;/string&gt;
+	&lt;key&gt;category_name&lt;/key&gt;
+	&lt;string&gt;Category&lt;/string&gt;
+	&lt;key&gt;category_questions_max_limit&lt;/key&gt;
+	&lt;string&gt;10&lt;/string&gt;
+	&lt;key&gt;timer_required&lt;/key&gt;
+	&lt;true/&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+#E14B76</string>
+			<key>category_description</key>
+			<string>Practice Test 1</string>
+			<key>category_id</key>
+			<string>2</string>
+			<key>category_name</key>
+			<string>Category</string>
+			<key>category_questions_max_limit</key>
+			<string>0</string>
+			<key>timer_required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>category_color</key>
+			<string>#ff4444</string>
+			<key>category_description</key>
+			<string>Practice Test 2</string>
+			<key>category_id</key>
+			<string>3</string>
+			<key>category_name</key>
+			<string>Category</string>
+			<key>category_questions_max_limit</key>
+			<string>0</string>
+			<key>timer_required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>category_color</key>
+			<string>#ff4444</string>
+			<key>category_description</key>
+			<string>Question Bank</string>
+			<key>category_id</key>
+			<string>4</string>
+			<key>category_name</key>
+			<string>Category</string>
+			<key>category_questions_max_limit</key>
+			<string>0</string>
+			<key>timer_required</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

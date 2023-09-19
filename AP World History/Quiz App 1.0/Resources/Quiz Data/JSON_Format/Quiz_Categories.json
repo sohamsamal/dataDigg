@@ -1,0 +1,45 @@
+{
+    "Categories":[
+        
+                    {
+                             "category_color":"#fbc7f7",
+                             "category_id":"1",
+                             "category_name":"AP World History Practice Test 1",
+                             "category_description":"",
+                             "timer_required":true,
+                             "category_questions_max_limit":"0",
+                             "remainingSeconds":"3300"
+                    },
+                    {
+                        "category_color":"#fdf5e6",
+                        "category_id":"2",
+                        "category_name":"AP World History Practice Test 2",
+                        "category_description":"",
+                        "timer_required":true,
+                        "category_questions_max_limit":"0",
+                        "remainingSeconds":"3300"
+                    },
+                    {
+                             "category_color":"#fbc7f7",
+                             "category_id":"3",
+                             "category_name":"AP World History Practice Test 3",
+                             "category_description":"",
+                             "timer_required":true,
+                             "category_questions_max_limit":"0",
+                             "remainingSeconds":"3300"
+                    },
+                    {
+                        "category_color":"#fdf5e6",
+                        "category_id":"4",
+                        "category_name":"AP World History Practice Test 4",
+                        "category_description":"",
+                        "timer_required":true,
+                        "category_questions_max_limit":"0",
+                        "remainingSeconds":"1800"
+                    }
+            
+            ]
+    }
+
+    
+

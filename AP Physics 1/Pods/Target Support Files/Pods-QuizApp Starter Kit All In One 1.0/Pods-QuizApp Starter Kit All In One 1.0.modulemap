@@ -1,0 +1,6 @@
+framework module Pods_QuizApp_Starter_Kit_All_In_One_1_0 {
+  umbrella header "Pods-QuizApp Starter Kit All In One 1.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

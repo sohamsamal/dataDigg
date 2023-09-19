@@ -1,0 +1,6867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>a &gt; b and b &gt; 0</string>
+				<string>a &gt; b and b &lt; 0
+</string>
+				<string>a &gt; b</string>
+				<string>a &lt; b</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Assume that a and b are integers. The boolean expression 
+				
+			! (a &lt;= b) &amp;&amp; (a * b &gt; 0)
+
+will always evaluate to true given that </string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>12</string>
+				<string>-1</string>
+				<string>13</string>
+				<string>0</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What value is stored in end if
+	int end = 13 - 3 * 6 / 4 % 3;
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>x = 30 and y = 90  </string>
+				<string>x = 30 and y = -30</string>
+				<string>x = 30 and y = 60</string>
+				<string>x = 30 and y = 40</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What values are stored in x and y after execution of the following program segment?
+	
+	int x = 30;
+	int y = 30;
+	if (x &gt;= 0)
+	{
+		if (x &lt;= 100)
+		{
+			y = x * 3;
+			if (y &lt; 50)
+				x /= 10;
+		}
+		else
+			y = x * 2;
+	}
+	else
+		y = -x;</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>3</string>
+				<string>2</string>
+				<string>Nothing will print due to compile-time error
+</string>
+				<string>Nothing will print due to run-time error</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment:
+	
+	String[] s = new String[2];
+	String[] t = { “Joe”, “Jack”, “Judy”};
+	s = t;
+	System.out.print(s.length);
+	
+What will print as a result of this code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II and III only</string>
+				<string>I and II only</string>
+				<string>II only</string>
+				<string>I and III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the method reverse:
+	
+	//Precondition:    n &gt; 0.
+	//Postcondition:  returns n with its digits reversed.
+	//Example:           if n = 234, method reverse returns 432.
+	int reverse (int n)
+	{
+		int rem, revNum = 0;
+		
+		/* code segment  */ 
+		return revNum;
+	}
+
+	Which of the following replacements for /* code segment  */ would cause the method to work as intended?
+		
+	I. 	for (int i = 0; i &lt;= n; i++)
+	   	{
+			rem = n % 10;
+			revNum = revNum * 10 + rem;
+			n /= 10;
+	   	}	
+
+	II.	while (n != 0)
+		{
+			rem = n % 10;
+			revNum = revNum * 10 + rem;
+			n /= 10;
+		}
+
+	III.     for (int i = n; i != 0; i /= 10)
+		{
+			rem = i % 10;
+			revNum = revNum * 10 + rem;
+	         }</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Nothing will be printed due to compile-time error  </string>
+				<string>Nothing will be printed due to run-time error </string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment:
+               
+	final int[] a1 = {1, 2};
+	int[] b1 = {3, 4};
+	System.out.print(a1[1]);
+	
+What is printed as a result of executing the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and III only</string>
+				<string>I and II only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>If the string “computer science” is assigned to the variable s, which of the following will return the string “science”?
+		
+	I. s.substring(9);
+	II. s.substring(9, 15);
+	III. s.substring(9, 16);</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>1 3</string>
+				<string>0 0</string>
+				<string>2 4</string>
+				<string>0 2</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What will be the output of this code program?
+	
+	class Something
+	{
+		public static void main(String[] args)
+		{
+			int[] arr = {1, 2, 3, 4};
+			doSomething(arr);
+			System.out.print(arr[1] + “ “);
+			System.out.print(arr[3]);
+		}
+
+		public void doSomething(int[] list)
+		{
+			int[] b = list;
+			for (int i = 0; i &lt; b.length; i++)
+				b[i] = i;
+		}
+	}</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>“sillystr”</string>
+				<string>“sillystrin”</string>
+				<string>“silly str”</string>
+				<string>“silly st”</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What is the value of str after execution of the following?
+		
+	String line = “Some more silly stuff on strings!”;
+	int x = line.indexOf(“e”);
+	String str = line.substring(10, 15) + line.substring(25, 25 + x);</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>k = j - 1; k &gt;= 0; k--  </string>
+				<string>k = j - 1; k &gt; 0; k--  </string>
+				<string>k = 1; k &lt; arr.length; k++</string>
+				<string>k = 1; k &gt; arr.length; k++</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The following incomplete method is intended to sort its array parameter arr in increasing order.
+
+	//postcondition: arr is sorted in increasing order
+	public static void sortArray(int[] arr)
+	{
+		int j, k;
+				
+		for (j = arr.length - 1; j &gt;0; j--)
+		{
+			int pos  = j;
+					 
+			for ( /* missing code */ ) 
+			{
+				if (arr[k] &gt; arr[pos])
+				{
+					pos = k;
+				}
+			}
+			swap(arr, j, pos);
+		}
+	}
+
+Assume that swap(arr, j, pos) exchanges the values of arr[j] and arr[pos]. Which of the following could be used to replace  /* 	missing code */ so that executing the code segment sorts the values in array arr?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>5 25 10</string>
+				<string>5 20 10</string>
+				<string>5 25 5</string>
+				<string>5 20 5</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+		
+	public void numberCheck(int maxNum)
+	{
+		int typeA = 0;
+		int typeB = 0;
+		int type C = 0;
+		
+		for (int k = 1; k &lt;= maxNum; k++)
+		{
+			if (k % 2 == 0 &amp;&amp; k % 5 == 0)
+				typeA++;
+			if (k % 2 == 0)
+				typeB++;
+			if (k % 5 == 0)
+				typeC++;
+		}
+		System.out.println(typeA + “ “ + typeB + “ “ + typeC);
+	}
+	
+What is printed as a result of the call numberCheck(50)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>int k = arr[0];         
+arr[0] = arr[5];
+arr[5] = k;</string>
+				<string>int k = arr[5];
+arr[0] = arr[5];
+arr[5] = k;</string>
+				<string>arr[0] = arr[5];
+arr[5] = arr[0];</string>
+				<string>arr[0] = 5;
+arr[5] = 0;</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Assume that an array of integer values has been declared as follows and has been initialized.
+			
+	int[] arr = new int[10];
+	
+Which of the following code segments correctly interchanges the values of arr[0] and arr[5]?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>[E, D, A, B]  </string>
+				<string>[A, B, C, E]  </string>
+				<string>[A, B, D, E]  </string>
+				<string>[E, D, A, C]  </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+	
+	ArrayList&lt;String&gt; items = new ArrayList&lt;String&gt;();
+	items.add(“A”);
+	items.add(“B”);	
+	items.add(“C”);
+	items.add(0, “D”);
+	items.remove(3);
+	items.add(0, “E”);
+	System.out.println(items);
+
+What is the output by the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>nameList.get(j).equals(name) </string>
+				<string>nameList.get(j) == name </string>
+				<string>nameList.remove(j)</string>
+				<string>nameList[j].equals(name)</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method that is intended to modify its parameter nameList by replacing all occurrences of name with newValue.
+		
+	public void replace(ArrayList&lt;String&gt; nameList, String name, String newValue)
+	{
+		for (int j = 0; j &lt; nameList.size(); j++)
+		{
+			if ( /* expression */ )
+			{
+				nameList.set(j, newValue);
+			}
+		}
+	}
+
+Which of the following can be used to replace /* expression */ so that replace will work as intended?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>55</string>
+				<string>100</string>
+				<string>45</string>
+				<string>20</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+		
+	public int sol(int lim)
+	{
+		int s = 0;
+		for (int outer = 1; outer &lt;= lim; outer++)
+		{
+			for (int inner = outer; inner &lt;= lim; inner++)
+			{
+				s++;
+			}
+		}		
+		return s;
+	}
+	
+What value is returned as a result of the call sol(10)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>0 2 0 2 0 2 0 </string>
+				<string>0 2 1 0 2</string>
+				<string>0 2 0 2 0 2 </string>
+				<string>0 2 1 0 2 1 0</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+	
+	int k = 0; 
+	while (k &lt; 10)
+	{
+		System.out.print((k % 3) + “ “);
+		if ((k % 3) == 0)
+			k = k + 2;
+		else
+			k++;
+	}
+
+What is printed as a result of executing the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>0 1 1 2 2 2 3 3 3 3</string>
+				<string>0 1 2 3</string>
+				<string>0 0 1 0 1 2</string>
+				<string>0 1 2 2 3 3 3</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+
+	for (int outer = 0; outer &lt; n; outer++)
+	{
+		for (int inner = 0; inner &lt;= outer; inner++)
+		{
+			System.out.print(outer + “ “);
+		}
+	}
+
+If n has been declared as an integer with value 4, what is printed as a result of executing the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I, II, and III</string>
+				<string>I and II only</string>
+				<string>II and III only</string>
+				<string>II only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segments.
+		
+	I. 	int k = 1;
+		  while (k &lt; 20)
+		  {
+			if (k % 3 == 1)
+				System.out.print(k + “  “);
+			k = k + 3;
+		}
+	
+          II.	for (int k = 1; k &lt; 20; k++)
+	         {
+		         if (k % 3 == 1)
+			        System.out.print(k + “  “);
+		}
+	
+       III. for (int k = 1; k &lt; 20; k = k + 3)
+        {
+		System.out.print(k + “  “);
+	}		 	
+
+Which of the code segments above will produce the following output?
+	
+	1  4  7  10  13  16  19</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I only</string>
+				<string>III only</string>
+				<string>I and III</string>
+				<string>II and III</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A teacher puts three bonus questions on a test and awarded 5 extra points to anyone who answered all three bonus questions correctly and no extra points otherwise. Assume the boolean variables bonusOne, bonusTwo, and bonusThree indicate whether a student has answered the particular question correctly. Each variable was assigned true if the answer was correct and false if the answer was incorrect. Which of the following code segments will properly update the variable grade based on a student’s performance on the bonus questions? 
+	
+	I.	if (bonusOne &amp;&amp; bonusTwo &amp;&amp; bonusThree)
+			grade += 5; 
+
+	II.	if (bonusOne || bonusTwo || bonusThree)
+			grade += 5; 
+
+	III. 	if (bonusOne)
+			grade += 5;
+		if (bonusTwo)
+			grade += 5;
+		if (bonusThree)
+			grade += 5;</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>a == b</string>
+				<string>a != b</string>
+				<string>True</string>
+				<string>False </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Assume that a and b are variables of type int. The expression 
+		
+	!(a &lt; b) &amp;&amp; !(a &gt; b) 
+	
+is equivalent to which of the following?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>1</string>
+				<string>0</string>
+				<string>2</string>
+				<string>3</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What is the value of a[1] after the following code is executed?
+	
+	int[] a = {0, 2, 4, 1, 3};
+	for (int j = 0; j &lt; a.length; j++)
+		a[j] = a[(a[j] + 3) % a.length];</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>7</string>
+				<string>10</string>
+				<string>5</string>
+				<string>6</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+
+	public static int mystery(int[] arr)
+	{
+		int x = 0;
+		for (int k = 0; k &lt; arr.length; k = k + 2)
+			x = x + arr[k];
+		return k;
+	}
+	
+Assume that the array num has been declared and initialized as follows. 
+		
+	int[] num = {3, 6, 1, 0, 1, 4, 2};
+	
+What value will be returned as a result of the call mystery(num)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>8 bytes</string>
+				<string>4 bytes</string>
+				<string>2 bytes</string>
+				<string>It depends on the compiler setting</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What is the size of a double variable in Java?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>123</string>
+				<string>ClassCastException</string>
+				<string>6</string>
+				<string>15</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What is displayed by 
+		
+	System.out.println(“1” + new Integer(2) + 3);</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I, II, and III</string>
+				<string>II only</string>
+				<string>I and II only</string>
+				<string>II and III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following classes:
+	
+	public class Year2006
+	{
+		public String toString() { return “2006; }
+	}
+	
+	public class Test2006 extends Year2006
+	{
+		public void print()
+		{	
+			&lt; missing statement &gt; 
+		}
+	}
+	
+Which of the following could replace &lt; missing statement &gt; so that Test2006 would compile with no errors and would display 2006? 
+
+	Test2006 test = new Test2006();
+	test.print();
+	
+	
+	I. 	System.out.println(new Year(2005());
+	II. 	System.out.println(new Test2005());	
+	III. 	System.out.println(this);</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Value is: 2 </string>
+				<string>Value is: 0</string>
+				<string>Value is: 21</string>
+				<string>Value is: 2.3333333</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+	
+	int x = 7;
+	int y = 3;
+	if ((x &lt; 10) &amp;&amp; (y &lt; 0))
+		System.out.println(“Value is: + x * y);
+	else
+		System.out.println(“Value is : + x / y);
+	
+What is printed as a result of executing the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>3</string>
+				<string>2</string>
+				<string>1</string>
+				<string>0</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What is the value of n after the following code is executed?
+	
+	int n = 2005;
+	for (int j = 0; j &lt; 50; j++)
+		n = (n + 3) / 2; </string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>a[0].length,    a.length,       new int[rows][cols]  </string>
+				<string>a[0].length,    a.length,       new int[][](rows, cols)</string>
+				<string>a.cols,      a.rows,       new int(rows, cols)</string>
+				<string>a.cols,	     a.rows,       new int[][](rows, cols)</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code.
+	
+	public int[][] rotate(int[][] a)
+	{
+		int rows = &lt;expression 1&gt;;
+		int cols = &lt;expression 2&gt;;
+		int[][] b = &lt;expression 3&gt;;
+		
+		for (int r = 0; r &lt; rows; r++)
+			for (int c = 0; c &lt; cols; c++)
+				b[r][c] = &lt;expression 4&gt;;
+		return b;
+	}
+	
+	// For example, if a holds 
+			1 2 3
+			4 5 6
+	// rotate(a) will hold
+			3 6
+			2 5
+			1 4
+
+Which of the following should replace &lt;expression 1&gt;, &lt;expression 2&gt;, and &lt;expression 3&gt; respectively?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>a[cols - 1- c][r]         </string>
+				<string>a[c][rows - 1 - r]
+</string>
+				<string>a[cols - 1- c][rows - 1- r]</string>
+				<string>a[rows - 1- r][cols - 1- c]</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code.
+	
+	public int[][] rotate(int[][] a)
+	{
+		int rows = &lt;expression 1&gt;;
+		int cols = &lt;expression 2&gt;;
+		int[][] b = &lt;expression 3&gt;;
+		
+		for (int r = 0; r &lt; rows; r++)
+			for (int c = 0; c &lt; cols; c++)
+				b[r][c] = &lt;expression 4&gt;;
+		return b;
+	}
+	
+	// For example, if a holds 
+			1 2 3
+			4 5 6
+	// rotate(a) will hold
+			3 6
+			2 5
+			1 4
+
+Which of the following should replace &lt;expression 4&gt;?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>[4, 7, 12, 19, 28, 39]   </string>
+				<string>[39, 28, 19, 12, 7, 4]</string>
+				<string>[3, 4, 7, 12, 19, 28, 39]
+</string>
+				<string>[3, 4, 7, 12, 19, 28]</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+		
+	public ArrayList&lt;Integer&gt; mystery(int n)
+	{
+		ArrayList&lt;Integer&gt; seq = new ArrayList&lt;Integer&gt;();
+		for (int k = 1; k &lt;= n; k++)
+			seq.add(new Integer(k * k + 3));
+		return seq;
+	}
+	
+Which of the following is printed as a result of executing the following statement?
+		
+	System.out.println(mystery(6));</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>return Math.abs(d1 - d2) &lt;= tolerance;  </string>
+				<string>return ((d1 + d2) / 2) &gt;= tolerance;</string>
+				<string>eturn (d1 - d2) &gt;= tolerance;</string>
+				<string> return ((d1 + d2) / 2) &lt;= tolerance;</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method that is intended to determine if the double values d1 and d2 are close enough to be considered equal. For example, given a tolerance of 0.001, the values 54.32271 and 54.32294 would be considered equal.
+	
+	/* return true if d1 and d2 are within the specified tolerance, false otherwise     */
+
+	public boolean almostEqual(double d1, double d2, double tolerance)
+	{
+		/* missing code */
+	}
+
+Which of the following should replace /* missing code */ so that almostEqual will work as intended?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>sum += key[j - 1];  </string>
+				<string>sum += key[j];  </string>
+				<string>sum = key[j];  </string>
+				<string>sum += sum +  key[j - 1];  </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method that is intended to return the sum of the elements in the array key.
+		
+	public static int sumArray(int[] key)
+	{
+		int sum = 0;
+		for (int j = 1; j &lt;= key.length; j++)
+		{
+			/* missing code */
+		}
+		return sum;
+	}
+
+Which of the following statements should be used to replace /* missing code */ so that sumArray will work as intended?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>“optr”</string>
+				<string>“cmue”</string>
+				<string>“computer</string>
+				<string>“ompute”</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+	
+	public String mystery(String input)
+	{
+		String output = “”;
+		for (int k = 1; k &lt; input.length(); k += 2)
+		{
+			output += input.substring(k, k + 1);
+		}	
+		return output;
+	}
+	
+What is returned as a result of the call mystery(“computer”)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>0 7 2 5 3 3  </string>
+				<string>0 7 2 5 5 10  </string>
+				<string>0 2 2 3 3 0</string>
+				<string>1 7 3 5 4 3</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+		
+	int[] arr = {7, 2, 5, 3, 0, 10};
+	for (int k = 0; k &lt; arr.length - 1; k++)
+	{
+		if (arr[k] &gt; arr[k + 1])
+			System.out.print(k + “ “ + arr[k] + “ “);
+	}
+	
+What will be printed as a result of executing the code segment?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>k + a1.length        </string>
+				<string>k </string>
+				<string>k + a1.length - 1</string>
+				<string>k + a1.length + 1       </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following incomplete method that is intended to return an array that contains the contents of its first array parameter followed by the contents of its second array parameter.
+		
+	public static int[] add(int[] a1, int[] a2)
+	{
+		int[] result = new int[a1.length + a2.length];
+		for (int j = 0; j &lt; a1.length; j++)
+			result[j] = a1[j];
+		for (int k = 0; k &lt; a2.length; k++)
+			result[  /*  index  */  ] = a2[k];	
+		return result;
+		
+Which of the following expressions can be used to replace /*  index  */ so that add will wok as intended?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>{1, 2, 3, 5, 6, 7, 7}  </string>
+				<string>{1, 2, 3, 4, 5, 6, 7}  </string>
+				<string>{1, 2, 3, 5, 6, 7}  </string>
+				<string>{1, 2, 3, 5, 6, 7, 8}  </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+	
+	int[] arr = {1, 2, 3, 4, 5, 6, 7};
+	for (int k = 3; k &lt; arr.length - 1; k++)
+		arr[k] = arr[k + 1];
+	
+Which of the following represents the contents of arr as a result of executing the code segment?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>(a != b) || (b &lt;= 7)    </string>
+				<string>(a == b) || (b &lt;= 7)    </string>
+				<string>(a != b) || (b &lt; 7)    </string>
+				<string>(a != b) &amp;&amp; (b &lt;= 7)    </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Assume that a and b have been defined and initialized as int values. The expression 
+		
+	!( !( a != b ) &amp;&amp; (b &gt; 7 ))
+	
+is equivalent to which of the following?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>words[index].compareTo(words[minPos]) &lt; 0</string>
+				<string>words[index].compareTo(words[minPos]) &gt;= 0</string>
+				<string>words[index].compareTo(words[minPos]) &gt; 0</string>
+				<string>words[index] &gt; words[minPos]</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The following method is intended to return the index to the “smallest” word, namely, the word that would appear first in an alphabetized list.
+	
+	//Precondition: words is initialized with lowercase words.
+	//                        words.length &gt; 0
+		
+	public static int findMin(String[] words)
+	{
+		int minPos = 0;
+		for (int index = 1; index &lt; words.length; index++)
+		{
+			if ( /* condition */ )
+			{
+				minPos = index;
+			}	
+		}
+		return minPos;
+	}
+	
+Which of the following should be used to replace /* condition */  so that findMin works as intended?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>ogatowird</string>
+				<string>dccb</string>
+				<string>oaoi</string>
+				<string>og</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following data field and method.
+	
+	private ArrayList&lt;String&gt; list;
+		
+	public void mystery()
+	{
+		String str1 = “”, str2 = “”;
+		for (String s : list)
+		{
+			str1 += s.substring(1);
+			str2 += s.substring(1, 2);
+		}
+		System.out.println(str1);
+		System.out.println(str2);
+	}
+	
+Assume that the contents of list are 
+		
+	dog      cat     cow     bird
+	
+What will be the output for str1 by a call to mystery?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>oaoi</string>
+				<string>grwr</string>
+				<string>dccb</string>
+				<string>docacobi</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following data field and method.
+	
+	private ArrayList&lt;String&gt; list;
+		
+	public void mystery()
+	{
+		String str1 = “”, str2 = “”;
+		for (String s : list)
+		{
+			str1 += s.substring(1);
+			str2 += s.substring(1, 2);
+		}
+		System.out.println(str1);
+		System.out.println(str2);
+	}
+	
+Assume that the contents of list are 
+		
+	dog      cat     cow     bird
+	
+What will be the output for str2 by a call to mystery?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>always true </string>
+				<string>always false</string>
+				<string>true only when x is true and y is true</string>
+				<string>true only when x and y have the same value</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Assume that x and y are Boolean variables and have been properly initialized. 
+		
+	(x &amp;&amp; y) || !(x &amp;&amp; y)
+	
+The result of evaluating the expression above is best described as</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>18</string>
+				<string>128</string>
+				<string>28</string>
+				<string>2</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The method aProperty is defined as follows:
+	
+	public boolean aProperty(int a)
+	{
+		return a == 2 * (a / 10 + a % 10);
+	}
+	
+For which of the following values of a does aProperty(a) return true?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>First: 15       Last: 27</string>
+				<string>First: 15       Last: 28</string>
+				<string>First: 16       Last: 27</string>
+				<string>First: 15       Last: 28</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment. 
+	
+	int value = 15;
+	while (value &lt; 28)
+	{
+		System.out.println(value);
+		value++;
+	}
+	
+What are the first and last numbers output by the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>0</string>
+				<string>1</string>
+				<string>n - 1</string>
+				<string>n - 2</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment. 
+		
+	int k = [a random number such that 1 &lt;= k &lt;= n];
+	
+	for (int p = 2; p &lt;= k; p++)
+		for (int r = 1; r &lt; k; r++)
+			System.out.println(“Hello”);
+	
+What is the minimum number of times that Hello will be printed?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>123456</string>
+				<string>654321</string>
+				<string>56</string>
+				<string>16</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method. 
+	
+	// precondition: x &gt;= 0
+	
+	public void mystery(int x)
+	{
+		if ((x / 10) != 0)
+		{
+			mystery(x / 10);
+		}
+		System.out.print(x % 10);
+	}
+	
+Which of the following is printed as a result of the call mystery(123456)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>(n - 1)^2</string>
+				<string>n^2</string>
+				<string>n - 1</string>
+				<string>n - 2</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment. 
+
+	int k = [a random number such that 1 &lt;= k &lt;= n];
+	
+	for (int p = 2; p &lt;= k; p++)
+		for (int r = 1; r &lt; k; r++)
+			System.out.println(“Hello”);
+	
+What is the maximum number of times that Hello will be printed?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and III only</string>
+				<string>II and III only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following instance variable and incomplete method. The method total is intended to return the sum of all values in nums.
+	
+	private int[] nums;
+		
+	public int total()
+	{
+		int total = 0;
+		/* missing code */
+		return total;
+	}
+		
+Which of the code segments shown below can be used to replace /* missing code */ so that total will work as intended?
+		
+	I.	for (int pos = 0; pos &lt; nums.length; pos++)
+		{	
+			total += nums[pos];
+		}
+	
+	II. 	for (int pos = nums.length; pos &gt; 0; pos—)
+		{
+			total += nums[pos];
+		}
+			
+	III. 	int pos = 0;
+		while (pos &lt; nums.length)
+		{	
+			total += nums[pos];
+			pos++;
+		} </string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>7</string>
+				<string>8</string>
+				<string>4</string>
+				<string>3</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+	
+	int[] oldArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+	int[][] newArray = new int[3][3];
+	int row = 0;
+	int col = 0;
+	for (int value : oldArray)
+	{	
+		newArray[row][col] = value;
+		row++;
+		if ((row % 3) == 0)
+		{
+			col++;
+			row = 0;
+		}	
+	}
+	System.out.println(newArray[0][2]);
+	
+What is printed as a result of executing the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>8</string>
+				<string>13</string>
+				<string>5</string>
+				<string>1</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method. 
+	
+	public static int mystery(int n)
+	{
+		int x = 1;	
+		int y = 1;
+		while (n &gt; 2)
+		{
+			x = x + y;	
+			y = x - y;
+			n--;	
+		}
+		return x;
+	}
+	
+What value is returned as a result of the call mystery(6)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>n will always be greater than 2 at // Point B.           </string>
+				<string>n will never be greater than 2 at // Point A.
+</string>
+				<string>x will never be 1 at // Point C.</string>
+				<string>n will sometimes be greater than at // Point C.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+			
+	public static int mystery(int n)
+	{
+		int x = 1;	
+		int y = 1;
+		// Point A
+		while (n &gt; 2)
+		{
+			x = x + y;
+			// Point B	
+			y = x - y;
+			n--;	
+		}
+		// Point C
+		return x;
+	}
+	
+Which of the following is true of the method mystery?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>for (int k = 4; k &lt;= 100; k = k + 4)             
+	System.out.println(k);</string>
+				<string>for (int k = 1; k &lt;= 100; k = k + 4)             
+	System.out.println(k);</string>
+				<string>for (int k = 1; k &lt;= 25; k++)             
+	System.out.println(k);</string>
+				<string>for (int k = 4; k &lt;= 100; k = 4 * k)             
+	System.out.println(k);</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+
+	for (int k = 1; k &lt;= 100; k++)
+		if ((k % 4) == 0)
+			System.out.println(k);
+	
+Which of the following code segments will produce the same output as the code segment above?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>“ilercom”</string>
+				<string>“ilercomp”</string>
+				<string>“pilercom”</string>
+				<string>“compiler”</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+	
+	public static String scramble(String word, int howFar)
+	{
+		return word.substring(howFar + 1, word.length()) + word.substring(0, howFar);
+	}
+
+What value is returned as a result of the call scramble(“compiler”, 3)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>n^k</string>
+				<string>2^k</string>
+				<string>n * k</string>
+				<string>n!</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+	
+	public int compute(int n, int k)
+	{	
+		int ans = 1;
+		for(int j = 1; j &lt;= k; j++)
+			ans *= n;
+		return ans;
+	}
+	
+Which of the following represents the value returned as a result of the call compute(n, k)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>4752</string>
+				<string>2574</string>
+				<string>18</string>
+				<string>4</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+	
+	int num = 2574;
+	int result = 0;
+	while (num &gt; 0)
+	{
+		result = result * 10 + num % 10;
+		num /= 10;
+	}
+	System.out.println(result);
+	
+What is printed as a result of executing the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>The contents of the array nums are reversed.   </string>
+				<string>The method generates an ArrayIndexOutOfBoundsException.</string>
+				<string>The first value in nums is copied to every location in the array.</string>
+				<string>The last value in nums is copied to every location in the array.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method. 
+	
+	public static void arrayMethod(int[] nums)
+	{
+		int j = 0;
+		int k = nums.length -1;
+		while (j &lt; k)
+		{
+			int x = nums[j];
+			nums[j] = nums[k];
+			nums[k] = x;
+			j++;
+			k--;
+		}
+	}
+		
+Which of the following described what the method arrayMethod() does to the array nums?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>6</string>
+				<string>50</string>
+				<string>49</string>
+				<string>7</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following program segment. 
+		
+	for (int k = 50; k &gt; 0; k = k / 2)
+		System.out.println(k);
+	
+How many lines of output will this segment produce?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>None</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following statements about a class thisClass that implements an interface is true?
+	
+		I. It is illegal to create an instance of thisClass
+	        II. Any superclass of thisClass must also implement that interface
+                III. thisClass must implement every method of the interface</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>III only</string>
+				<string>II and III only</string>
+				<string>I only</string>
+				<string>II only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Let someList be an ArrayList&lt;String&gt; containing only these elements:
+			
+	“Joe”, “Judy”, “Jack”, “James”
+	
+Which of the following statements will cause an error to occur?
+	
+	I. someList.set(2, “6”);
+	II. someList.add(4, “Pat”);
+	III. String s = someList.get(4);</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>student.setName(“Joe”);  </string>
+				<string>student.getName(“Tom”);
+</string>
+				<string>Person.setName(“Joe”);
+</string>
+				<string>student = new Person(“Joe”, 1996);
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following class declaration.
+	
+	public class Person
+	{
+		private String myName;
+		private int myYearOfBirth;
+			
+		public Person(String name, int yearOfBirth)
+		{
+			myName = name;
+			myYearOfBirth = yearOfBirth;
+		}
+			
+		public String getName()
+		{
+			return myName;
+		}
+			
+		public void setName(String name)
+		{
+			myName = name;
+		}
+			
+		// There may be instance variables, constructors, and methods that are not shown.
+	}
+		
+Assume that the following declaration has been made.
+		
+	Person student = new Person(“Jerry”, 1996);
+	
+Which of the following statements is the most appropriate for changing the name from “Jerry” to “Joe”?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>if (last &lt; 0)	       return -1;   </string>
+				<string>if (last &gt; 0)	return -1;</string>
+				<string>if (last &lt;= 0)	return -1;</string>
+				<string>while (last &gt;= 0)	</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following instance variable and methods. You may assume that data has been initialized with length &gt; 0. The methods are intended to return the index of an array element equal to target, or -1, if no such element exists.
+	
+	private int[] data;
+	
+	public int seqSearch(int target)
+	{
+		return seqSearchHelper(target, data.length - 1);
+	}
+	
+	private int seqSearchHelper(int target, int last)
+	{
+		// Line 1
+		if (data[last] == target)
+			return last;
+		else
+	              return seqSearchHelper(target, last - 1);
+	}
+	
+Which of the following should be used to replace // Line 1 in seqSearchHelper so that seqSearch will work as intended?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>(int)( Math.random() * myList.size() )</string>
+				<string>(int)( Math.random() * myList.size() ) - 1</string>
+				<string>(int)( Math.random() * myList.size() ) + 1</string>
+				<string>(int)( Math.random() * myList.size() + 1)</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Assume that myList is an ArrayList that has been correctly constructed and populated with objects. Which of the following expressions produces a valid random index for myList?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>[“bear”, “zebra”, “bass”, “cat”, “koala”, “baboon”]    </string>
+				<string>[“zebra”, “cat”, “koala”, “baboon”, “bass”, “bear”]</string>
+				<string>[“baboon”, “zebra”, “bass”, “cat”, “bear”, “koala”]</string>
+				<string> [“baboon”, “bear”, “zebra”, “bass”, “cat”, “koala”]</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following instance variable and method. 
+	
+	private List&lt;String&gt; animals;
+		
+	public void change()
+	{
+		for (int k = animals.size() - 1; k &gt; 0; k--)
+		{
+			if (animals.get(k).substring(0, 1).equals(“b”))
+			{
+				animals.add(animals.size() - k, animals.remove(k));
+			}	
+		}
+	}
+	
+Assume that animals has been instantiated and initialized with the following contents.
+		
+	[“bear”, “zebra”, “bass”, “cat”, “koala”, “baboon”]
+	
+What will the contents of animals be as a result of calling change?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>                 W               
+		WA
+		WAT
+		WATC</string>
+				<string>WATC
+		WAT
+		WA
+		W</string>
+				<string>W
+		WA
+		WAT
+		WATC
+		WATCH</string>
+				<string>WATCH
+		WATC
+		WAT
+		WA</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following recursive method.
+
+	public static void doSomething(String str)
+	{
+		int len = str.length();		
+		if (len &gt; 1)
+		{
+			String s = str.substring(0, len - 1);
+			doSomething(s);
+			System.out.println(s);
+		}
+	}
+	
+What is printed as a result of the call doSomething(“WATCH”)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>4 10 16  </string>
+				<string>0 6 12 18</string>
+				<string>1 4 7 10 13 16 19</string>
+				<string>0 2 4 6 8 10 12 14 16 18</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+	
+	for (int j = 0; j &lt; 20; j = j + 2)
+	{
+		if (j % 3 == 1)
+			System.out.print(j + “ “);
+	}
+		
+What is printed as a result of executing the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>[“A”, “B”, “E”, “d”, “f”] </string>
+				<string>[“A”, “B”, “d”, “E”, “f”] </string>
+				<string>[“A”, “E”, “B”, “d”, “f”] </string>
+				<string>[“A”, “E”, “d”, “c”, “f”]</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment.
+
+	ArrayList&lt;String&gt; list = new ArrayList&lt;String&gt;();
+	
+	list.add(“A”);
+	list.add(“B”);	
+	list.add(“C”);
+	list.set(2, “d”);
+	list.add(2, “E”);
+	list.add(“f”);
+		
+What is printed as a result of executing the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>[0, 4, 2, 5, 3]  </string>
+				<string>[4, 2, 5, 3]</string>
+				<string>[0, 0, 4, 2, 5, 0, 3, 0]</string>
+				<string>[3, 5, 2, 4, 0, 0, 0, 0]</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following instance variable and method. 	
+			
+	private ArrayList&lt;Integer&gt; vals;
+	
+	// Precondition: vals.size &gt; 0
+		
+	public void whatToDo()
+	{	
+		int j = 0;
+		Integer zero = new Integer(0);
+			
+		while (j &lt; vals.size())
+		{
+			if (vals.get(j).equals(zero))
+				vals.remove(j);
+			j++;
+		}
+	}
+		
+Assume that ArrayList vals initially contains the following Integer values.
+		
+	[0, 0, 4, 2, 5, 0, 3, 0]
+	
+What will the ArrayList vals contain as a result of executing whatToDo?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Use one class Bus, which has three data fields: int numDoors, boolean hasAir, and double milesPerGallon.</string>
+				<string>Use three classes: Doors, AirConditioning, and MilesPerGallon, each with a subclass Bus.</string>
+				<string>Use a class Bus, which has a subclass Doors, with a subclass AirConditioning, with a subclass MilesPerGallon.</string>
+				<string>Use a class Bus which has three subclasses: Doors, AirConditioning, and MilesPerGallon.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A bus dealership needs a program to store information about the buses for sale. For each bus, they want to keep track of the following information: number of doors, whether the bus has air conditioning, and its average number of miles per gallon. Which of the following is the best design?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>hours = hours + minutes / 60;           minutes = minutes % 60;
+</string>
+				<string>hours = hours + minutes % 60;        minutes = minutes / 60;</string>
+				<string>hours = hours + minutes / 60;
+</string>
+				<string>minutes = minutes + hours % 60;</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following incomplete class declaration. 
+	
+	public class TimeKeeper
+	{
+		private int hours;
+		private int minutes;       // 0 &lt;= minutes &lt; 60
+	
+		public TimeKeeper(int h, int m)
+		{
+			hours = h;
+			minutes = m;
+		}
+			
+		// return the number of hours
+		public int getHours()
+		{  /* implementation not shown */  }
+	
+		// return the number of minutes		
+		// Postcondition: 0 &lt;= minutes &lt; 60
+		public int getMinutes()
+		{  /* implementation not shown */  }
+			
+		// Adds h hours and m minutes to this TimeRecord.
+		// param h the number of hours
+		//	Precondition: h &gt;= 0 
+		// param m the number of minutes
+		//	Precondition: m &gt;= 0
+		public void  update(int h, int m)
+		{
+			hours = hours + h;	
+			minutes = minutes + m;
+			/* missing code */
+		}
+			
+		// … other methods not shown
+	}
+		
+Which of the following can be used to replace /* missing code */ so that update will correctly update the time?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>total.update(time[j].getHours(), time[j].getMinutes())  </string>
+				<string>time[j].update(time[j].getHours(), time[j].getMinutes())</string>
+				<string>total.update(time[j].hours, time[j].minutes)</string>
+				<string>total += time[j].update()</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following incomplete class declaration. 
+	
+	public class TimeKeeper
+	{
+		private int hours;
+		private int minutes;       // 0 &lt;= minutes &lt; 60
+	
+		public TimeKeeper(int h, int m)
+		{
+			hours = h;
+			minutes = m;
+		}
+			
+		// return the number of hours
+		public int getHours()
+		{  /* implementation not shown */  }
+	
+		// return the number of minutes		
+		// Postcondition: 0 &lt;= minutes &lt; 60
+		public int getMinutes()
+		{  /* implementation not shown */  }
+			
+		// Adds h hours and m minutes to this TimeRecord.
+		// param h the number of hours
+		//	Precondition: h &gt;= 0 
+		// param m the number of minutes
+		//	Precondition: m &gt;= 0
+		public void  update(int h, int m)
+		{
+			hours = hours + h;	
+			minutes = minutes + m;
+			/* missing code */
+		}
+			
+		// … other methods not shown
+	}
+	
+Consider the following declaration that appears in a client program.
+		
+	TimeKeeper[] time = new TimeKeeper[100];
+	
+Assume that time has been initialized with TimeKeeper objects. Consider the following code segment that is intended to compute the total of all the times stored in time.
+	
+	TimeKeeper total = new TimeKeeper(0, 0);
+		
+	for (int j = 0; j &lt; time.length; j++)
+	{
+		/* missing expression */
+	}
+	
+Which of the following can be used to replace /* missing expression */ so that the code segment will work as intended?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>43211234</string>
+				<string>12344321</string>
+				<string>3443</string>
+				<string>1441</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+ 	
+	// param x &gt;= 0
+	public void mystery(int x)
+	{	
+		System.out.print(x % 10);
+			
+		if ((x / 10) != 0)
+			mystery(x / 10);
+			
+		System.out.print(x % 10);
+	}
+	
+Which of the following is printed as a result of the call mystery(1234)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>All values in positions z + 1 through myThings.length are greater than or equal to a. </string>
+				<string>All values in position 0 through z are less than a.</string>
+				<string>The largest value that is smaller than a is at position z.</string>
+				<string>All values in positions z + 1 through myThings.length are less than a.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following instance variable and method.
+	
+	private int[] myThings;
+		
+	//Precondition: myThings contains int values in no particular order
+		
+	public int mystery(int num)	
+	{
+		for (int j = myThings.length - 1; j &gt;= 0; j--)
+		{
+			if (myThings[j] &lt; num)
+				return j;
+		}
+		return -1;
+	}
+		
+Which of the following best describes the contents of myThings after the following statement has been executed?
+	
+	int z = mystery(a);</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>run eat bark sleep</string>
+				<string>run eat sleep bark</string>
+				<string>run eat sleep</string>
+				<string>run eat 
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following two classes.
+		 	
+	public class Dog
+	{
+		public void act()
+		{
+			System.out.print(“run”);
+			eat();
+		}
+			
+		public void eat()
+		{
+			System.out.print(“eat”);
+		}
+	}
+		
+	public class UnderDog extends Dog
+	{
+		public void act()
+		{
+			super.act();
+			System.out.print(“sleep”);
+		}	
+			
+		public void eat()
+		{
+			super.eat();
+			System.out.print(“bark”);
+		}
+	}
+		
+Assume that the following declaration appears in a client program. 
+		
+	Dog fido = new Underdog();
+	
+What is printed as a result of the call fido.act()?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>243</string>
+				<string>6561</string>
+				<string>81</string>
+				<string>3</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following recursive method. 
+	
+	public static int mystery(int n)
+	{
+		if (n == 0)
+			return 1;
+		else
+			return 3 * mystery(n - 1);
+	}
+		
+What value is returned as a result of the call mystery(5)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>returns the index of the largest value in array vals  </string>
+				<string>returns the index of the largest value in the second half of array vals</string>
+				<string>returns the index of the first element in array vals whose value is greater than vals[loc]</string>
+				<string>returns the index of the last element in array vals whose value is greater than vals[loc]
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following instance variable and method.
+	
+	private int[] vals;
+		
+	// Precondition: vals.length &gt; 0
+	public int check()
+	{	
+		int loc = vals.length / 2;
+			
+		for (int j = 0; j &lt; vals.length; j++)
+		{	
+			if (vals[j] &gt; vals[loc];
+				loc = j;
+		}
+		return loc;
+	}
+		
+Which of the following is the best postcondition for check?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>world		6 </string>
+				<string>worldpeace	6
+</string>
+				<string>world	12
+</string>
+				<string>worldpeace	12
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Assume the the following declarations have been made.
+	
+	private String s;
+	private int k;
+		
+	public void change( String y, int z)
+	{
+		y = y + “peace”;
+		z = z * 2;
+	}
+		
+Assume s has the value “world” and k is 6. What are the values of s and k after the call change(s, k)?
+		
+	s 			n</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>!(X || Y || Z)             </string>
+				<string>!(X &amp;&amp; Y &amp;&amp; Z)</string>
+				<string>!X || !Y || !Z</string>
+				<string>!X &amp;&amp; !(Y &amp;&amp; !Z)</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following will evaluate to true only if boolean expressions X, Y, and Z are all false?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and III only</string>
+				<string>I and II only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the three classes below.
+		
+	public class Employee
+	{
+		private String myName;
+		private int myEmployeeNum;
+		private double mySal, myTaxHeld;
+	
+		public Employee(String name, int empNum, double salary, double taxHeld)
+		{ /* implementation not shown */ }
+		
+		// Returns pre-tax salary
+		public double getSalary()
+		{
+			return mySal;
+		}
+			
+		public String getName()
+		{
+			return myName;
+		}
+		
+		public int getEmployeeNum()
+		{
+		         return myEmployeeNum;
+		}
+		
+		public double getTax()
+		{
+			return myTaxHeld;
+		}
+			
+		public double computePay()
+		{
+			return sal - myTaxHeld; 
+		}
+	}
+		
+	public class PartTimeEmployee extends Employee
+	{
+		private double myPayFrac;
+			
+		public PartTimeEmployee(String name, int empNum, double salary, double taxHeld, double payFraction)
+		{ /* implementation not shown */}
+		
+		public double getPayFraction()
+		{
+			return myPayFrac;
+		}
+		
+		public double computePay()
+		{	
+			return getSalary() * myPayFrac - getTax();
+		}
+	}
+		
+	public class Consultant extends Employee
+	{
+		private static final double BONUS = 500;
+		
+		public Consultant(String name, int empNum, double salary, double taxHeld)
+		{ /* implementation not shown */}
+		
+		public double computePay()
+		{ /* implementation not shown */}
+	}
+		
+The computePay method in the Consultant class redefines the computePay method of the Employee class to add a bonus to 	the salary after subtracting the tax withheld. Which represents correct /* implementation code */ of computePay for Consultant?
+	
+	I. 	return super.comutePay() + BONUS;
+	II. 	super.computePay();
+			return getSalary() + BONUS;
+	III. 	return getSalary() - getTax() + BONUS;</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>A ClassCastException will be thrown.          </string>
+				<string>A NullPointerException will be thrown.</string>
+				<string>A compile-time error will occur, with the message that the getName method is not in the Consultant class.</string>
+				<string>A list of employees’ names and corresponding pay will be written to the screen.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the three classes below.
+		
+	public class Employee
+	{
+		private String myName;
+		private int myEmployeeNum;
+		private double mySal, myTaxHeld;
+	
+		public Employee(String name, int empNum, double salary, double taxHeld)
+		{ /* implementation not shown */ }
+		
+		// Returns pre-tax salary
+		public double getSalary()
+		{
+			return mySal;
+		}
+			
+		public String getName()
+		{
+			return myName;
+		}
+		
+		public int getEmployeeNum()
+		{
+		         return myEmployeeNum;
+		}
+		
+		public double getTax()
+		{
+			return myTaxHeld;
+		}
+			
+		public double computePay()
+		{
+			return sal - myTaxHeld; 
+		}
+	}
+		
+	public class PartTimeEmployee extends Employee
+	{
+		private double myPayFrac;
+			
+		public PartTimeEmployee(String name, int empNum, double salary, double taxHeld, double payFraction)
+		{ /* implementation not shown */}
+		
+		public double getPayFraction()
+		{
+			return myPayFrac;
+		}
+		
+		public double computePay()
+		{	
+			return getSalary() * myPayFrac - getTax();
+		}
+	}
+		
+	public class Consultant extends Employee
+	{
+		private static final double BONUS = 500;
+		
+		public Consultant(String name, int empNum, double salary, double taxHeld)
+		{ /* implementation not shown */}
+		
+		public double computePay()
+		{ /* implementation not shown */}
+	}
+		
+Consider the writeInfo method:
+		
+	//Writes Employee name and pay on one line.
+	public static void writeInfo(Employee emp)
+	{
+		System.out.println(emp.getName() + “ “ + emp.computePay());
+	}
+	
+The following piece of code invokes this method.
+	
+	Employee[] empList = new Employee[3];
+	empList[0] = new Employee(“Jack Stuart”, 1, 60000, 15000);
+	empList[1] = new PartTimeEmployee(“Joe Man”, 2, 45000, 7500, 0.85);
+	empList[2] = new Consultant(“James Rob”, 3, 50000, 9000);
+	for (Employee e : empList)
+		writeInfo(e);
+	
+What will happen when this code is executed?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>method overloading </string>
+				<string>polymorphism</string>
+				<string>method overriding</string>
+				<string>information hiding</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the classes below.
+
+	public class Class1
+	{
+		// default constructor not shown …
+	
+		public void method1()
+		{ /* implementation of method1 */ }
+	}
+		
+	public class Class2 extends Class1
+	{
+		// default constructor not shown …
+	
+		public void method1()
+		{ /* different implementation from method1 in Class1 */ }
+	
+		public void method2()
+		{ /* implementation of method2 */ }
+	}
+		
+The method1 in Class2 is an example of </string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+				<string>I and III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the classes below.
+
+	public class Class1
+	{
+		// default constructor not shown …
+	
+		public void method1()
+		{ /* implementation of method1 */ }
+	}
+		
+	public class Class2 extends Class1
+	{
+		// default constructor not shown …
+	
+		public void method1()
+		{ /* different implementation from method1 in Class1 */ }
+	
+		public void method2()
+		{ /* implementation of method2 */ }
+	}
+
+Consider the following declarations in a client class.
+	
+	Class1 a = new Class1();
+	Class2 b = new Class2();
+	
+Which of the following method calls will cause an error?
+	
+	I. a.method2();	
+	II. b.method2();	
+	III. ((Class2) a).method2();</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II and III only</string>
+				<string>III only</string>
+				<string>II only</string>
+				<string>I only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the class below.
+	
+	public class PassedTime implements Comparable
+	{
+		private int myHrs, myMins, mySecs; 	//0 &lt;= mySecs &lt; 60,
+										//0 &lt;= myMins &lt; 60
+
+		//constructors
+	
+		public PassedTime()
+		{
+			myHrs = 0;
+			myMins = 0;
+			mySecs = 0;
+		}
+			
+		public PassedTime(int h, int m, int s)
+		{
+			myHrs = h;
+			myMins = m;
+			mySecs = s;
+		}
+		
+		public PassedTime(int numSecs)	//numSecs is total number of seconds of elapsed time
+		{ /* implementation not shown */ }
+	
+		//Returns number of seconds in PassedTime.
+		public int convertToSeconds()
+		{ /* implementation not shown */ }
+	
+		//Returns a negative integer if this object is less than obj, 0 if this                         object is equal to obj, and a positive integer if this object is greater than obj.
+		public int compareTo(Object obj)
+		{ /* implementation */}
+		
+		//accessors getHrs, getMins, and getSecs not shown …
+	}
+	
+Consider the implementation of the compareTo method for the PassedTime class:
+	
+	 //Returns a negative integer if this object is less than obj, 0 if this object is equal to obj, and a positive integer if this object is greater than obj.
+	public int compareTo(Object obj)
+	{
+		PassedTime r = (PassedTime) obj;
+		/* more code */ 
+	}
+	
+Which is a correct replacement for /* more code */ ?
+	
+	I. 	if (myHrs &lt; r.myHrs &amp;&amp; myMins &lt; r.myMins &amp;&amp; mySecs &lt; r.mySecs)
+			return -1;
+		else if (myHrs &gt; r.myHrs &amp;&amp; myMins &gt; r.myMins &amp;&amp; mySecs &gt; r.mySecs)
+			return 1;
+		else
+			return 0;
+	
+	II. 	if (myHrs &lt; r.myHrs)
+			return -1;
+		else if (myHrs &gt; r.myHrs)
+			return 1;
+		else
+			return mySecs - r.mySecs;
+	
+	III. 	int secs = this.convertToSeconds();
+		int rSecs = r.convertToSeconds();
+		return secs - rSecs;</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Two overloaded methods in the same class must have parameters with different names.  </string>
+				<string>Static methods have no implicit parameter this.</string>
+				<string>The scope of parameters is the method in which they are defined.</string>
+				<string>All parameters in Java are passed by value.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which statement about parameters is false?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>getPondTemp	//return temperature of pond        </string>
+				<string>swim 			//frog swims to new position in pond</string>
+				<string>eat			//frog eats and gains weight
+</string>
+				<string>die			//frog dies with some probability based on frog’s age and pond temperature</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Here are the private instance variables for a Frog object:
+
+	public class Frog
+	{
+		private String species;
+		private int age;
+		private double weight;
+		private Position pos;	//position (x, y) in pond
+		private boolean alive;
+			…
+		
+Which of the following methods in the Frog class is the best candidate for being a static method?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>correct_ans_explanation</key>
+			<string>3 6
+9</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>9 27
+6 3</string>
+				<string>9 27
+9 27</string>
+				<string>6 3 
+9 27</string>
+				<string>Option</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What output will be produced by this program?
+
+	public class Mystery
+	{
+		public static void strange(int x, int y)
+		{
+			x += y;
+			y *= x;
+			System.out.println(x + “ “ + y);
+		}
+			
+		public static void main(String[] args)
+		{
+			int a = 6, b = 3;
+			strange(a, b);
+			System.out.println(a + “ “ + b);
+		}
+	}</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>0
+0
+0</string>
+				<string>1
+2
+3</string>
+				<string>3
+3
+3</string>
+				<string>No output will be produced.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider this program.
+			
+	public class Count
+	{
+		public static void something()
+		{
+			int count = 0;
+				…
+			//code to do something - no screen output produced
+		}
+		
+		public static void main(String[] args)
+		{
+			int count = 0;
+			System.out.println(“How many iterations?”);
+			int n = IO.readInt();		//read user input
+			for (int j = 1; j &lt;= n; j++)
+			{
+				something();
+				System.out.println(count);
+			}
+		}
+	}
+	
+If the input valor for n is 3, what screen output will this program subsequently produce?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>9, 9, 9</string>
+				<string>2, 9, 9</string>
+				<string>2, 8, 9</string>
+				<string>7, 8, 9</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>This question refers to the following class.
+	
+	public class Object
+	{
+		private int num;
+	
+		public Object() 		//default constructor
+		{ num = 0; }
+	
+		public Object(int n)		//constructor
+		{ num = n; }
+
+		public void increment()	//increment by 1
+		{ num++; }
+	}
+	
+	Here is a client program that uses this class.
+		
+		public class ObjectTest
+		{
+			public static Object something(Object obj)
+			{
+				Object o = obj;
+				o.increment();
+				return o;
+			}
+	
+			public static void main(String[] args)
+			{
+				Object x = new Object(2);
+				Object y = new Object(7);
+				Object a = y;
+				x = something(y);
+				a = something(x);
+			}
+		}
+		
+Just before exiting this program, what are the object values of x, y, and a, respectively?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>6, 8, ?, where ? means undefined </string>
+				<string>8, 6, ?, where ? means undefined </string>
+				<string>8, 6, 8</string>
+				<string>8, 6, 6</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following program.
+	
+	public class Test
+	{
+		public void something(int a, int b)
+		{
+			int temp = a;
+			a = b;
+			b = temp;
+		}
+	}
+		
+		
+	public class TestMain
+	{
+		public static void main(String[] args)
+		{
+			int x = 6, y = 8;
+			Test test = new Test();
+			Test.something(x, y);
+		}
+	}
+	
+Just before the end of execution of this program, what are the values of x, y, and temp, respectively?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II only</string>
+				<string>III only</string>
+				<string>I only</string>
+				<string>II and III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider these class declarations.
+	
+	public class Student
+	{
+		…
+	}
+	
+	public class HighSchoolStudent extends Student
+	{
+		…
+	}
+	
+Which is a true statement?
+		
+	I. HighSchoolStudent inherits the constructors of Student.
+	II. HighSchoolStudent can add new methods and private instance variables.
+	III. HighSchoolStudent can override existing methods of Student.</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>All of the methods in both an abstract class and an interface are public.  </string>
+				<string>An interface cannot implement any non-default instance methods, whereas an abstract class can.</string>
+				<string> A class may implement many interfaces but can have only one superclass.
+</string>
+				<string>An unlimited number of unrelated classes can implement the same interface.
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which statement about abstract classes and interfaces is false?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>public class Point              
+{
+	private double x;
+	private double y;
+	
+	//various methods follow
+		…
+}</string>
+				<string>public class Name
+{
+	private String firstName;
+	private String lastName;
+	
+	//various methods follow
+		…
+}</string>
+				<string>public class Car
+{
+	private int modelNumber;
+	private int year;
+	private double price;
+	
+	//various methods follow
+		…
+}</string>
+				<string>public class Point
+{
+	private String name;
+	private double gpa;
+	
+	//various methods follow
+		…
+}</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following classes is the least suitable candidate for containing a compareTo method?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>bottom-up development   </string>
+				<string>procedural abstraction
+</string>
+				<string>Top-down development
+</string>
+				<string>information hiding</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A programmer is designing a program to catalog all books in a library. He plans to have a Book class that stores features of each book: author, title, isOnShelf, and so on, with operations like getAuthor, getTitle, getShelfInfo, and setShelfInfo. Another class, LibraryList, will store an array of Book objects. The LibraryList class will include operations such as listAllBooks, addBook, removeBook, and searchForBook. The programmer plans to implement and test the Book class first, before implementing the LibraryList class. The programmer’s plan to write the Book class first is an example of 
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>24</string>
+				<string>8</string>
+				<string>16</string>
+				<string>32</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The color of a pixel can be represented using the RGB (Red, Green, Blue) color model, which stores values for red, green, and blue, each ranging from 0 to 255. How many bits (binary digits) would be needed to represent a color in the RGB model?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II and III only</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following method that finds the smallest value in the array.
+	
+	// Precondition: a is an array of nonzero length and is initialized with int values.
+	// param a the array to be processed
+	// return the smallest value in a
+	
+	public static int min(int[] a)
+	{
+		int min = /* some value */;
+		int index = 0;
+		while (index &lt; a.length)
+		{
+			if (a[index] &lt; min)
+				min = a[index];
+			index++;
+		}
+		return min;
+	}
+	
+Which replacement(s) for /* some value */ will always result in correct execution of the min method?
+	
+	I. Integer.MIN_VALUE
+	II. Integer.MAX_VALUE
+	III. arr[0]</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>(k + 1) / 2             </string>
+				<string>(k - 1) / 2             </string>
+				<string>k - 1</string>
+				<string>k / 2</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following loop, where n is some positive integer.
+		
+	for (int j = 0; j &lt; n; j += 2)
+	{
+		if ( /* test */ )
+			/* perform some action */
+	}
+	
+In terms of k, which Java expression represents the maximum number of times that /* perform some action */ could be executed?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>only when a &lt;= b          </string>
+				<string>only when a &lt; b          </string>
+				<string>only when a &gt; b          </string>
+				<string>For all values of and b</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>When will method something cause a stack overflow (i.e., cause computer memory to be exhausted)?
+	
+	public static int something(int a, int b)
+	{
+		if (a &gt; b)
+			return a * b;
+		else
+			return something(a - 1, b);
+	}</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>x[j] == max</string>
+				<string>x[j] != max</string>
+				<string>true</string>
+				<string>false</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The boolean expression x[j] == max || !(max != x[j]) can be simplified to 
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>255</string>
+				<string>256</string>
+				<string>32</string>
+				<string>225</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Suppose the characters 0, 1, …, 8, 9, A, B, C, D, E, F are used to represent a hexadecimal (base-16) number. Here A = 10, B = 11, …, F = 15. What is the largest base-10 integer that can be represented with a two-digit hexadecimal number, such as 14 or 3A?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>list.add(list.size(), new Person());  </string>
+				<string>for (int j = 0; j &lt;= list.size(); j++)
+	list.set(j, new Person());</string>
+				<string>Person p = list.get(list.size());</string>
+				<string>Person p = list.remove(list.size());</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider a Person class that has a default constructor. Suppose a list ArrayList&lt;Person&gt; list is initialized. Which of the following will not cause an IndexOutOfBoundsException to be thrown?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>3 4 5</string>
+				<string>0 0 0</string>
+				<string>4 5 6</string>
+				<string>5 6 7</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following class.
+
+	public class Test
+	{
+		private int[] arr = {3, 4, 5};
+	
+		// param k an int to be incremented by 1
+		public void increment(int k)
+		{ k++; }
+	
+		public void method1()
+		{
+			for (int j = 0; j &lt; arr.length; j++)
+			{
+				increment(arr[j]);
+				System.out.print(arr[j] + “ “);
+			}
+		}
+	
+		public void method2()
+		{
+			for (int e : arr)
+			{
+				increment(e);
+				System.out.print(e + “ “);
+			}
+		}
+	}
+		
+What output will be produced by invoking method1 for a Test object?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>3 4 5</string>
+				<string>0 0 0</string>
+				<string>4 5 6</string>
+				<string>5 6 7</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following class.
+
+	public class Test
+	{
+		private int[] arr = {3, 4, 5};
+	
+		// param k an int to be incremented by 1
+		public void increment(int k)
+		{ k++; }
+	
+		public void method1()
+		{
+			for (int j = 0; j &lt; arr.length; j++)
+			{
+				increment(arr[j]);
+				System.out.print(arr[j] + “ “);
+			}
+		}
+	
+		public void method2()
+		{
+			for (int e : arr)
+			{
+				increment(e);
+				System.out.print(e + “ “);
+			}
+		}
+	}
+		
+What output will be produced by invoking method2 for a Test object, assuming that arr contains 3, 4, 5?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Interchanges in list the objects indexed at k and j.  </string>
+				<string>Replaces in list the object indexed at k and j with t.</string>
+				<string>Replaces in list the object indexed at j with the object indexed at k.</string>
+				<string>Replaces in list the object indexed at k with the object indexed at j.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the mystery method:
+	
+	// postcondition
+	public static void mystery(List&lt;SomeType&gt; list, int k, int j)
+	{
+		SomeType t = list.get(k);	
+		list.set(k, list.get(j));
+		list.set(j, t);
+	}
+	
+Which best describes the postcondition for mystery?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>347</string>
+				<string>47</string>
+				<string>734</string>
+				<string>743</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+	
+	public static void mystery(int k)
+	{
+		if (k &gt; 10)
+			mystery(k / 10);
+		System.out.print(k % 10);
+	}
+	
+What will be the output as a result of the method call mystery(347)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>The number of comparisons for selection sort is independent of the initial arrangement of elements.</string>
+				<string>The number of data movements in selection sort depends on the initial arrangement of elements.</string>
+				<string>The number of data movements in insertion sort is independent of the initial arrangement of elements</string>
+				<string>The number of comparisons for insertion sort is independent of the initial arrangement of elements.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A large list of numbers is to be sorted into ascending order. Assuming that a “data movement” is a swap or reassignment of an element, which of the following is a true statement?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and II only</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following will execute without throwing an exception?
+	
+	I. 	String s = null;
+		String t = “”;
+		if (s.equals(t))
+			System.out.println(“empty strings?”);
+	
+	II. 	String s = “holy”;
+		String t = “moly”;
+		if (s.equals(t))
+			System.out.println(“holy moly!”);
+	
+	III. 	String s = “holy”;
+		String t = s.substring(4);
+		System.out.println(s + t);
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>array[first] &lt; key &lt; array[last] or key is not in arr </string>
+				<string>array[first] &lt; key &lt; array[last] or key is not in arr </string>
+				<string>array[first] &lt;= key &lt;= array[last] </string>
+				<string>array[first] &lt; key &lt; array[last] </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the find method in the Finder class below.
+	
+	public class Finder
+	{
+		private int[] array;
+	
+		// Constructor: Initializes array with integers.
+		public Finder()
+		{ /* implementation not shown */ }
+	
+		// Precondition: array[first] … array[last] sorted in ascending order
+		// Postcondition: return index of key in array. If key is not in array, returns -1;
+		public int find(int first, int last, int key)
+		{
+			int mid;
+			while (first &lt;= last)
+			{
+				mid = (first + last) / 2;
+				if (array[mid] == key)
+					return mid;
+				else if (array[mid] &lt; key)
+					first = mid + 1;
+				else
+					last = mid - 1;
+			}
+			return -1;
+		}
+	}
+	
+Which assertion is true just before each execution of the while loop?
+	</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>4</string>
+				<string>3</string>
+				<string>10</string>
+				<string>13</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the find method in the Finder class below.
+	
+	public class Finder
+	{
+		private int[] array;
+	
+		// Constructor: Initializes array with integers.
+		public Finder()
+		{ /* implementation not shown */ }
+	
+		// Precondition: array[first] … array[last] sorted in ascending order
+		// Postcondition: return index of key in array. If key is not in array, returns -1;
+		public int find(int first, int last, int key)
+		{
+			int mid;
+			while (first &lt;= last)
+			{
+				mid = (first + last) / 2;
+				if (array[mid] == key)
+					return mid;
+				else if (array[mid] &lt; key)
+					first = mid + 1;
+				else
+					last = mid - 1;
+			}
+			return -1;
+		}
+	}
+
+Consider the array b with values as shown:
+	
+	4, 7, 19, 25, 36, 37, 50, 100, 205, 220, 271, 306, 321
+	
+where 4 is b[0] and 321 is b[13]. Suppose that the find method is called with first = 0 and last = 13 to locate the key 205. How many iterations of the while loop must be made in order to locate it?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>list[j] = (int) (Math.random() * 101);   </string>
+				<string>list[j] = (int) (Math.random() * 100);   </string>
+				<string>list.add((int) (Math.random() * 101));</string>
+				<string>list.add(new Integer(Math.random() * 100));</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following Random class.
+		
+	public class Random
+	{
+		private int[] randomList;
+	
+		public Random
+		{ randomList = getList(); }
+	
+		// return array with random Integers from 0 to 100 inclusive
+		public int[] getList()
+		{
+			System.out.println(“How many integers?”);
+			int len = IO.readInt();	//read user input
+			int[] list = new int[len];
+			for (int j = 0; j &lt; len; j++)
+			{
+				/* code to add integer to list */
+			}
+			return list;
+		}
+		
+		// Print all elements of this list
+		public void printList()
+		{ …
+	}
+	
+Which represents correct /* code to add integer to list */ ?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>1 -2 -6                
+-2 -4  5</string>
+				<string>-1  2 -6
+ 2 -4  5
+</string>
+				<string>-1  -2 -6
+-2 -4  -5
+</string>
+				<string>1  2 -6 
+2  4  5
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A matrix (two-dimensional array) is declared as 	
+		
+	int[][] matrix = new int[2][3];
+	
+Consider the following method:
+	
+	public static void change(int[][] matrix)
+	{
+		for (int r = 0; r &lt; matrix.length; r++)
+			for (int c = 0; c &lt; matrix[r].length; c++)
+				if (r == c)
+					matrix[r][c] = Math.abs(matrix[r][c]);
+	}
+	
+If matrix is initialized to be
+	
+	-1 -2 -6
+	-2 -4  5
+	
+which matrix will be the result of a call to change(matrix)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Every element of array x is also in y.     </string>
+				<string>Arrays x and y contain at least one element that is also in b.
+</string>
+				<string>Arrays x and y contain identical elements in the same order.
+</string>
+				<string>Arrays x and y contain identical elements in reverse order.
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider method find below:
+	
+	// Precondition: a.length is equal to b.length.
+	public static boolean find(int[] x, int[] y)
+	{
+		for (int xVal : x)
+		{
+			boolean f = false;
+			for (int yVal : y)
+			{
+				if (xVal == yVal)
+					f = true;
+			}
+			if (!f)
+				return false;
+		}
+		return true;
+	}
+	
+Which best describes what method find does? Method find returns true only if </string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>It is not possible to declare a reference of type Player.  </string>
+				<string>GoodPlayer automatically implements the Player interface.</string>
+				<string>HumanPlayer must contain implementations of both the updateDisplay and getMove methods, or be declared as abstract.</string>
+				<string>The GoodPlayer class can override the methods updateDisplay and getMove of the HumanPlayer class.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the Player interface shown below.
+	
+	public interface Player
+	{	
+		// Return an integer that represents a move in a game.
+		int getMove();
+	
+		//Display the status of the game for this Player after implementing the next move.
+		void updateDisplay();
+	}
+	
+HumanPlayer is a class that implements the Player interface. Another class, GoodPlayer, is a subclass of HumanPlayer. Which statement is false?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>int winner = (int) (Math.random() * 50 ) + 1;       </string>
+				<string>int winner = (int) (Math.random() * 50 ) ;       </string>
+				<string>int winner = (int) (Math.random() * 51 ) ;       </string>
+				<string>int winner = (int) (Math.random() * 51 ) + 1;       </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A program simulates fifty slips of paper, numbered 1 through 50, placed in a bowl for a raffle drawing. Which of the following statements stores in winner a random integer from 1 to 50?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and III only</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the code segment.
+	
+	Integer j = new Integer(20);
+	/* more code */
+		
+Which of the following replacements for /* more code */ correctly sets j to have an integer value of 30?
+	
+	I. j = new Integer(30);
+	II. j.intValue() = 30;
+	III. Integer k = new Integer(30);
+		j = k;
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>if (j.compareTo((Integer) o) &lt; 0) …    </string>
+				<string>if (j.compareTo(d) &lt; 0) …
+</string>
+				<string>if (o.compareTo(j) &lt; 0) …
+</string>
+				<string>if ((Integer) o.compareTo(j) &lt; 0) …</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider these declarations.
+	
+	Integer j = new Integer(3);
+	Object o = new Integer(4);
+	Double d = new Double(3.0);
+
+Which of the following will not cause an error?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and III only</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to theses declarations:
+		
+	Integer a = new Integer(10);
+	Integer b = new Integer(5);
+	
+Which test will not generate an error?
+	
+	I. if (a.intValue() == b.intValue()) …
+	II. if ((a.intValue()).equals(b.intValue())) …
+	III. If ((a.toString()).equals(b.toString())) …
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>No output. A ClassCastException will be thrown.  </string>
+				<string>No output. An ArithmeticException will be thrown.  </string>
+				<string>“9”</string>
+				<string>9</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the code fragment.
+	
+	Object o = new Integer(10);
+	System.out.println((String) o);
+	
+What will be the output as a result of running the fragment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II and III only</string>
+				<string>I and II only</string>
+				<string>I only</string>
+				<string>II only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider these declarations:
+	
+	String a = “crab”;
+	String b = new String(“crab”);
+	String c = a;
+
+Which expression involving these strings evaluates to true?
+	
+	I. a == b
+	II. a.equals(b)
+	III. c.equals(b)
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>!(a.equals(b)) &amp;&amp; c.compareTo(b) &lt; 0             </string>
+				<string>!(a.equals(b)) &amp;&amp; c.compareTo(a) &lt; 0             </string>
+				<string>b.compareTo(a) &lt; 0 || c.compareTo(a) &lt; 0</string>
+				<string>a.compareTo(b) &lt; 0 &amp;&amp; b.compareTo(c) &lt; 0</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Suppose that a = “TOMATO”, b = “tomato”, and c = “tom”. Given that “A” comes before “a” in dictionary order , which is true?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>check with the writer of the specification whether zero is acceptable as a first digit.  </string>
+				<string>treat the identification number as a four-digit number if the user enters a number starting with zero.</string>
+				<string>write the code to reject zero as a first digit since five-digit integers do not start with zero. </string>
+				<string> write the code to accept zero as a first digit since zero is a valid digit.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A program that reads in a five-digit identification number is to be written. The specification does not state whether zero can be entered as a first digit. The programmer should 
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and II only</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following three program descriptions:
+
+	I. Test whether there exists at least one three-digit integer whose value equals the sum of the squares of its digits.
+	II. Read in a three-digit code number and check if it is valid according to some given formula.
+	III. Passwords consist of three digits and three capital letters in any order. Read in a password, and check if there are any repeated characters.
+
+For which of the preceding program descriptions would a ThreeDigitNumber class be suitable?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Writing the program in terms of the operations to be performed and then refining these operations by adding more detail. </string>
+				<string>Writing and testing the lowest level methods first and then combining them to form appropriate abstract operations.
+</string>
+				<string>Using driver programs to test all methods in the order that they are called in the program.</string>
+				<string>Writing an essay describing how the program will work, without including any Java code.
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Top-down programming is illustrated by which of the following?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I, II and III</string>
+				<string>II and III only</string>
+				<string>I and II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following should influence your choice of a particular algorithm?
+	
+	I. The run time of the algorithm
+	II. The memory requirements of the algorithm
+	III. The ease with which the logic of the algorithm can be understood
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>III only</string>
+				<string>II and III only</string>
+				<string>I and III only</string>
+				<string>I, II, and III</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A list of numbers is stored in a sorted array. It is required that the list be maintained in sorted order. This requirement leads to inefficient execution for which of the following processes?
+	
+	I. Summing the five tallest numbers in the list
+	II. Finding the maximum value in the list
+	III. Inserting and deleting numbers
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>will run on any computer without modification                                    </string>
+				<string>will not allow division by zero</string>
+				<string>uses algorithms that give correct answers for extreme data values</string>
+				<string>does not allow execution to proceed with invalid data</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following is not necessarily a feature of a robust program?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>5, 10, 15, 25, 30              </string>
+				<string>5, 10, 15, 20, 25, 30</string>
+				<string>0, 5, 10, 15, 25, 30</string>
+				<string>5, 15, 30</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A certain freight company charges its customers for shipping overseas according to this scale:
+	
+	$80 per ton for a weight of 10 tons or less
+	$40 per ton for each additional ton over 10 tons but not exceeding 25 tons
+	$30 per ton for each additional ton over 25 tons
+
+	For example, to ship a weight of 12 tons will cost 10(80) + 2(40) = $880. To ship 26 tons will cost 10(80) + 15(40) + 1(30) = $1430.
+	A method takes as parameter an integer that represents a valid shipping weight and outputs the charge for the shipment. Which of the following is the smallest set of input values for shipping weights that will adequately test this method?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Logic</string>
+				<string>Run-time</string>
+				<string>Overflow</string>
+				<string>Syntax</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A code segment calculates the mean of values in integers a, b, c, and d and stores the result in average, which is of type double. What kind of error is caused with this statement?
+
+	double average = a + b + c + d / (double) 4;</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>During evaluation of the expressions </string>
+				<string>As soon as the data from the input file is read</string>
+				<string>While editing the program</string>
+				<string>At compile time</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A program evaluates binary arithmetic expressions that are read from an input file. All the operands are integers, and the only operators are +, -, *, and /. In writing the program, the programmer forgot to include a test that checks whether the right-hand operand in a division expression equals zero. When will this oversight be detected in the computer?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>describes precisely the conditions that must be true at the time the method is called.           </string>
+				<string>states what the initial values of the local variables in the method must be.</string>
+				<string>describes the effect of the method on its postcondition.</string>
+				<string>initializes the parameters of the method.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which best describes the precondition of a method? It is an assertion that
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>(1) largest value in a or b		(2) largest value in c  </string>
+				<string>(1) smallest value in a or b		(2) largest value in c  </string>
+				<string>(1) smallest value in a	(2) largest value in b</string>
+				<string>(1) largest value in b or c		(2) largest value in a</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code fragment:
+	
+	// Precondition: a, b, and c contain 3 distinct integers.
+	// Postcondition: max contains the largest of a, b, c.
+	//first set max equal to larger of a and b
+	if (a &gt; b)
+		max = a;
+	else 
+		max = b;
+	// set max equal to larger of max and c
+	if (max &lt; c)
+		max = c;
+	
+For this algorithm, which of the following initial setups for a, b, and c will cause
+	
+	(1) the least number of computer operations (best case) and
+	(2) the greatest number of computer operations (worst case)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>N &gt;= 1, j = 1, sum = 1.0</string>
+				<string>avg = sum / N 
+</string>
+				<string>j &gt;= N, sum = 1.0</string>
+				<string>j &lt; N, sum = 1.0</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following code segment.
+	
+	//Compute the mean of integers 1 .. N.
+	// N is an integer &gt;= 1 and has been initialized.
+	int j = 1;
+	double avg, sum = 1.0;
+	while (j &lt; N)
+	{
+		/* loop body */
+	}
+	avg = sum / N;
+	
+What is the precondition for the while loop?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>3 &lt;= j &lt;= k   </string>
+				<string>3 &lt; j &lt;= k   </string>
+				<string>1 &lt;= j &lt;= k   </string>
+				<string>0 &lt;= j &lt;= k   </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The sequence of Fibonacci numbers is 1, 1, 2, 3, 5, 8, 13, 21, …. The first two Fibonacci numbers are each 1. Each subsequent number is obtained by adding the previous two. Consider this method:  
+	
+	// Precondition: n &gt;= 1.
+	// Postcondition: The nth Fibonacci number has been returned.
+	public static int fibonacci(int k)
+	{
+		int prev = 1, next = 1, sum = 1;
+		for (int j = 3; j &lt;= k; j++)
+		{
+			/* assertion */
+			sum = next + prev;
+			prev = next;
+			next = sum;
+		}
+		return sum;
+	}
+	
+Which of the following is a correct /* assertion */ about the loop variable j?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>total = a * b;   </string>
+				<string>total = a / b;   </string>
+				<string>total = a^b;   </string>
+				<string>total = b^a;</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following method.
+	
+	//Precondition: a and b are initialized integers.
+	public static int mystery(int a, int b) 
+	{
+		int total = 0, c = 1;
+		while (c &lt;= b)
+		{
+			total += a;
+			c++;
+		}
+		return total;
+	}
+	
+What is the postcondition for method mystery?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II and III only</string>
+				<string>I, II, and III</string>
+				<string>I and II</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A program is to be written that prints an invoice for a small store. A copy of the invoice will be given to the customer and will display 
+	
+	A list of items purchased.
+	The quantity, unit price, and the total price for each item.
+	The amount due.
+
+Three candidate classes for this program are Invoice, Item, and ItemList, where an Item is a single item purchased. Which class 	is a reasonable choice to be responsible for the amountDue method, which returns the amount the customer must pay?
+
+	I 	Item
+	II 	ItemList
+	III 	Invoice</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>If classes A and B are related such that A is-a B, then B has-a A.  </string>
+				<string>If a class A is associated with another class, B, then A depends on B for its implementation.
+</string>
+				<string>If class A has an instance variable whose type is another class, B, then A has-a B.
+</string>
+				<string>If class A is independent, then none of its methods will have parameters that are objects of other classes.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which is a false statement about classes in object-oriented program design?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>public class Tire extends Circle          
+{	…
+	// inherits methods that compute circumference and center point
+}</string>
+				<string>public class Vehicle
+{	…
+	private Tire[] tires;
+	private SteeringWheel sw;
+	…
+}</string>
+				<string>public class Car extends Vehicle
+{	…
+	// inherits private Tire[] tires from Vehicle class
+	// inherits private SteeringWheel sw from Vehicle class
+	…
+}</string>
+				<string>public class Tire
+{	…
+	private String rating;  // speed rating of tire
+	private Circle boundary;
+}</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A Java program maintains a large database of vehicles and parts for a car dealership. Some of the classes in the program are Vehicle, Car, Truck, Tire, Circle, Steering Wheel, and AirBag. The declarations below show the relationships between classes. Which is a poor choice?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>All independent classes (classes that have no references to other classes)  </string>
+				<string>All collaborator classes (classes that will be used to implement other classes)</string>
+				<string>Any subclasses
+</string>
+				<string>Any superclasses
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A Java programmer has completed a preliminary design for a large program. The programmer has developed a list of classes, determined the methods for each class, established the relationships between classes, and written an outline for each class. Which class(es) should be implemented first?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I, II, and III</string>
+				<string>II and III only</string>
+				<string>I and III only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following correctly initializes an array a to contain four elements each with value 0?
+				
+	I. int[] a = {0, 0, 0, 0};
+	II. int[] a = new int[4];
+	III. int[] a = new int[4];
+		for (int k = 0; k &lt; a.length; k++)
+		     	a[k] = 0;</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>whenever a contains at least one negative integer.   </string>
+				<string>whenever a contains at least one nonnegative integer.</string>
+				<string>always</string>
+				<string>never</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The following program segment is intended to find the index of the first negative integer in a[0] … a[N - 1], where a is an array of integers.	
+				
+	int j = 0;
+	while (a[j] &gt;= 0)
+	{
+		j++;
+	}
+	loc = j;
+
+This segment will work as intended</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>A run-time error will occur.            </string>
+				<string>An infinite loop will occur.	</string>
+				<string>sum of a[0], a[1], …, a[a.length - 1] will be stored in sum.</string>
+				<string>sum of a[0], a[1], …, a[a.length] will be stored in sum.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following code segment. You may assume that a is an array of int values.
+		
+	int sum = a[0], k = 0;
+	while (k &lt; a.length)
+	{
+		k++;
+		sum += a[k] ;
+	}
+	
+Which of the following will be the result of executing the segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>6, 4, 2	</string>
+				<string>0, 0, 0, 0, 6, 4, 2	</string>
+				<string>6, 4, 2, 4, 0, 0, 2</string>
+				<string>0, 6, 0, 4, 0, 0, 2</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following code segment. You may assume that array a contains elements a[0], a[1], …, a[N - 1], where N = a.length.
+	
+	int c = 0;
+	for (int j = 0; j &lt; N; j++)
+		if (a[j] != 0)
+		{
+			a[c] = a[j];
+			c++;
+		}
+	int[] b = new int[c];
+	for (int j = 0; j &lt; c; j++)
+		b[j] = a[j];
+
+If array a initially contains the elements 0, 6, 0, 4, 0, 0, 2 in this order, what will b contain after execution of the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>k - 1</string>
+				<string>k - 2</string>
+				<string>1</string>
+				<string>k</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider this program segment:
+		
+	for (int j = 2; j &lt;= k; j++)
+		if (a[j] &lt; someVal)
+			System.out.print(“SMALL”);
+
+What is the maximum number of times that SMALL be printed?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>If any particular text file is unexpectedly long, the ArrayList will automatically be resized. The array, by contrast, may go out of bounds.</string>
+				<string>None of the above</string>
+				<string>The size method of ArrayList provides instant access to the length of the list.</string>
+				<string>The get and set methods of ArrayList are more convenient than the [] notation for arrays.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider writing a program that reads the lines any text file into a sequential list of lines. Which of the following is a good reason to implement the list with an ArrayList of String objects rather than an array of String objects?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>An array of primitive number types is more efficient to manipulate than an ArrayList of wrapper objects that contain numbers.</string>
+				<string>Insertion of new elements into a list is easier to code for an array than for an ArrayList.</string>
+				<string>Removal of elements from a list is easier to code for an array than for an ArrayList.</string>
+				<string>Accessing individual elements in the middle of a list is easier for an array than for an ArrayList.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider writing a program that produces statistics for long lists of numerical data. Which of the following is the best reason to implement each list with an array of int (or double), rather than an ArrayList of Integer (or Double) objects? 
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II only</string>
+				<string>III only</string>
+				<string>I only</string>
+				<string>II and III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which declaration will cause an error?
+	
+	I. List&lt;String&gt; strList = new ArrayList&lt;String&gt;();
+	II. List&lt;int&gt; intList = new ArrayList&lt;int&gt;();
+	III. ArrayList&lt;String&gt; compList = new ArrayList&lt;String&gt;();</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>strList.add(o + 8);   </string>
+				<string>strList.add(c + 8);   </string>
+				<string>strList.add(o.toString());   </string>
+				<string>strList.add(c);   </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider these declarations:
+	
+	List&lt;String&gt; strList = new ArrayList&lt;String&gt;();
+	String c = “ “;
+	Integer o = new Integer(5);
+	
+Which statement will cause an error?	</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>list.add(6, 9); </string>
+				<string>Object y = list.set(6, 8);</string>
+				<string>Object x = list.remove(6);
+</string>
+				<string>Object o = list.get(6);</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Let list be an ArrayList&lt;Integer&gt; containing these elements:
+	
+	2 5 7 6 0 1
+
+Which of the following statements would not cause an error to occur? Assume that each statement applies to the given list, independent of the other statements.</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>2 3 4 2 1 8 </string>
+				<string>2 3 4 0 1 2</string>
+				<string>2 3 4 6 1 8 </string>
+				<string>2 3 4 6 2 2 0 1 8</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following code segment, applied to list, an ArrayList of Integer of values.
+	
+	int len = list.size();
+	for (int j = 0; j &lt; len; j++)
+	{
+		list.add(j + 1, new Integer(j));
+		Object x = list.set(j, new Integer(j + 2));
+	}
+	
+If list is initially 6 1 8 , what will be following execution of the code segment?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and II only</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following initializes an 8 * 10 matrix with integer values that are perfect squares? (0 is a perfect square.)
+	
+	I. 	int[][] mat = new int[8][10];
+	II. 	int[][] mat = new int[8][10];
+		for (int r = 0; r &lt; mat.length; r++)
+			for (int c = 0; c &lt; mat[r].length; c++)
+				mat[r][c] = r * r;
+	III. 	int[][] mat = new int[8][10];
+		for (int c = 0; c &lt; mat[r].length; c++)
+			for (int r = 0; r &lt; mat.length; r++)
+			         mat[r][c] = c * c;
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and II only</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following statements about recursion are true?
+	
+	I. Every recursive algorithm can be written iteratively.
+	II. Tail recursion is always used in “divide-and-conquer” algorithms.
+	III. In a recursive definition, a process is defined in terms of a simpler case of itself.</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II only</string>
+				<string>I only</string>
+				<string>III only</string>
+				<string>I and II only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following, when used as the /* body */ of method add, will enable that method to compute 1 + 2 + … + n correctly for any n &gt; 0?
+	
+	// param n a positive integer
+	// return 1 + 2 + … + n
+	public int add(int n)
+	{
+		/* body */
+	}
+	
+	I. 	return n + add(n - 1);
+	II. 	if (n == 1)
+			return 1;
+		else
+			return n + sum(n - 1);
+	III. 	if (n == 1)
+			return 1;
+		else
+			return sum(n) + sum(n - 1);</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>For no string inputs </string>
+				<string>For all string inputs </string>
+				<string>Only when the length of the string is less than 15</string>
+				<string>Only when an empty string is input</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the method recur:
+	
+	public void recur(String s)
+	{
+		if (s.length() &lt; 15)
+			System.out.println(s);
+		recur(s + “*”);
+	}
+	
+When will method recur terminate without error?	</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>For all string inputs		</string>
+				<string>For no string inputs		</string>
+				<string>Only when the length of the string is less than 15
+</string>
+				<string>Only when an empty string is input</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the method recur:
+	
+	public void recur(String s)
+	{
+		if (s.length() &lt; 15)
+		{
+	                System.out.println(s);
+		        recur(s + “*”);
+	         }
+	}
+When will method recur terminate without error?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>32</string>
+				<string>64</string>
+				<string>16</string>
+				<string>8</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the method mystery:
+	
+	public int mystery(int k)
+	{
+		if (k == 1)
+			return 2;
+		else
+			return 2 * result(k - 1);
+	}
+		
+What value does result(5) return?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>k</string>
+				<string>2^n</string>
+				<string>2</string>
+				<string>2k</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the method mystery:
+	
+	public int mystery(int k)
+	{
+		if (k == 1)
+			return 2;
+		else
+			return 2 * result(k - 1);
+	}
+	
+If k &gt; 0, how many times will result be called to evaluate result(k) (including the initial call)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>14</string>
+				<string>20</string>
+				<string>8</string>
+				<string>10</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the method mystery:
+	
+	public int mystery(int a, int b, int c)
+	{
+		if (a == 1)
+			return b;
+		else
+			return c + mystery(a - 1, b, c);
+	}
+	
+What value is returned by the call mystery(3, 2, 6)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>8</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the method something:
+		
+	public int something(int a, int b)
+	{
+		if (b == a)
+			return a;
+		else
+			if (b &gt; a)
+				return something(a, b - a);
+			else
+				return something(a - b, b);
+	}
+
+What value is returned by the call something(6, 8)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>It finds the largest value in a and leaves a unchanged. </string>
+				<string>It finds the smallest value in a and leaves a unchanged </string>
+				<string>It sorts a in ascending order and returns the largest value in a.</string>
+				<string>It sorts a in descending order and returns the largest value in a.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>What does method recur do?
+	
+	// param a an array of integers
+	// param b a positive integer
+	public int recur(int[] a, int b)
+	{
+		int c;
+		if (b == 1)
+			return a[0];
+		else
+		{	
+			c = recur(a, b - 1);
+			if (a[b - 1] &gt; c)
+				return a[b - 1];
+			else
+				return c;
+		}
+	}</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>It prints string s in reverse order.         </string>
+				<string>It prints string s.</string>
+				<string>It prints only the first character of the string s.</string>
+				<string>It prints only the last character of the string s.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which best describes what the print method below does?
+	
+	public void print(String s)
+	{
+		if (s.length() &gt; 0)
+		{
+			print(s.substring(1));
+			Sytem.out.print(s.substring(0, 1));
+		}
+	}
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>1213121 </string>
+				<string>1211213</string>
+				<string>1121213</string>
+				<string>1123211</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method.
+	
+	public void something(int k)
+	{
+		if (k &gt; 0)
+		{
+			something(k - 1);
+			System.out.print(k);
+			something(k - 1);
+		}
+	}
+	
+What would be the output following the call something(3)?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>12</string>
+				<string>10</string>
+				<string>8</string>
+				<string>6</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following recursive method.
+	
+	public int mystery(int k)
+	{
+		if (k &lt; 0)
+			return 2;
+		else
+			return mystery(k - 1) + mystery(k - 3);
+	}
+	
+What value is returned by the call mystery(3)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>-4</string>
+				<string>-2</string>
+				<string>2</string>
+				<string>4</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the method something:
+	
+	// param k a positive integer
+	public int something(int k)
+	{
+		if (k == 1 || k == 2)
+			return 2 * k;
+		else
+			return something(k - 1) - something(k - 2);
+	}
+
+What will be returned by something(5)?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>15</string>
+				<string>6</string>
+				<string>7</string>
+				<string>11</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the method something:
+	
+	// param k a positive integer
+	public int something(int k)
+	{
+		if (k == 1 || k == 2)
+			return 2 * k;
+		else
+			return something(k - 1) - something(k - 2);
+	}
+For the method call something(6), how many calls to something will be made, including the original call?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>15</string>
+				<string>12</string>
+				<string>7</string>
+				<string>6</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>This question refers to methods a and b that are in the same class:
+	
+	public int a(int x, int y)
+	{
+		if (x == y)
+			return y;
+		else
+			return x + b(x - 1, y);
+	}
+	
+	public int b(int c, int d)
+	{
+		if (c &lt; d)
+			return c + d;
+		else
+			return c + a(c - 2, d);
+	}
+What value will be returned by a call to a(5, 3)?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>(15!)/(2!) </string>
+				<string>(3! + 4!)!</string>
+				<string>3! + 4!</string>
+				<string>(7!)!</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider method f:
+	
+	public int f(int a)
+	{
+		if (a == 1 || a == 3)
+			return a;
+		else
+			return a * f(a - 1);
+	}
+	
+Assuming no possibility of integer overflow, what will be the value of z after execution of the following statement?
+	
+	int z = f(f(3) + f(4));</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I, II, and III</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>III only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The decision to choose a particular sorting algorithm should be made based on
+	
+	I. Run-time efficiency of the sort
+	II. Size of the array
+	III. Space efficiency of the algorithm</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>j &lt; n &amp;&amp; value != a[j]  </string>
+				<string>j &lt; n || value != a[j]</string>
+				<string>j &lt; n &amp;&amp; value == a[j]</string>
+				<string>value != a[j]</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The following code fragment does a sequential search to determine whether a given integer, value, is stored in an array a[0] … a[n - 1].
+	
+	int j = 0;
+	while ( /* boolean expression */ )
+	{
+		j++;
+	}
+	if (j == n)
+		return -1;        // value not found
+	else
+		return j;		// value found at location j
+
+Which of the following should replace /* boolean expression */ so that the algorithm works as intended?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>order of data        </string>
+				<string>Length of list</string>
+				<string>type of data</string>
+				<string>Smallest value in the list</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A feature of data that is used for a binary search but not necessarily used for a sequential search is
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II only</string>
+				<string>I and II only</string>
+				<string>III only</string>
+				<string>I only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Array unsortedArray contains an unsorted list of integers. Array sortedArray contains a sorted list of integers. Which of the following operations is more efficient  for sortedArray than unsortedArray? Assume the most efficient algorithms are used.
+	
+	I. Inserting a new element
+	II. Searching for a given element
+	III. Computing the mean of the elements.</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>When x is very close to the beginning of the array</string>
+				<string>When x is not in the array</string>
+				<string>When x is very close to the end of the array</string>
+				<string>When x is in the middle position of the array</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>An algorithm for searching a large sorted array for a specific value x compares every third item in the array to x until it finds one that is greater than or equal to x. When a larger value is found, the algorithm compares x to the previous two items. If the array is sorted in increasing order, which of the following describes all cases when this algorithm uses fewer comparisons to find x than would a binary search?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>a[0] holds the largest value in the array. </string>
+				<string>a[0] holds the smallest value in the array. </string>
+				<string>The array is sorted in descending order.</string>
+				<string>The array sorted in ascending order.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Assume that a[0] … a[N - 1] is an array of N positive integers and that the following assertion is true:
+	
+	a[0] &gt; a[k] for all k such that 0 &lt; k &lt; N
+	
+Which of the following must be true?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>When k is not in the array</string>
+				<string>When k equals 0</string>
+				<string>When k is the last element of the array
+</string>
+				<string>When k is the first element of the array</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The following code is designed to set index to the location of the first occurrence of k in array a and set index to -1 if key is not in a.
+	
+	index = 0;
+	while (a[index] != k)
+		index++;
+	if (a[index] != k)
+		index = -1;
+		
+In which case will this program definitely fail to perform the task described?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>a[4] … a[7]  </string>
+				<string>a[0] … a[7]  </string>
+				<string>a[2] … a[6]  </string>
+				<string>a[6] … a[7]  </string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the binarySearch method and the private instance variable a for some class:
+	
+	private int[] a;
+	
+	// Does binary search for k in array[0] … a[a.length - 1], sorted in ascending order.
+	// param k the integer value to be found
+	// Postcondition: index has been returned such that a[index] == k.				  If k not in a, return -1.
+	public int binarySearch(int k)
+	{
+		int low = 0;
+		int high = a.length - 1;
+		while (low &lt;= high)
+		{
+			int mid = (low + high) / 2;
+			if (a[mid] == k)
+				return mid;	
+			else if (a[mid] &lt; k)
+				low = mid + 1;
+			else
+				high = mid - 1;
+		}
+		return -1;
+	}
+	
+A binary search will be performed on the following list.	
+	
+a[0]		a[1] 		a[2]		a[3]		a[4]		a[5]		a[6].         a[7]
+4		    7               9              11            20          24              30            41
+
+To find the k value 27, the search interval after the first pass through the while loop will be</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>3</string>
+				<string>27</string>
+				<string>8</string>
+				<string>1</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the binarySearch method and the private instance variable a for some class:
+	
+	private int[] a;
+	
+	// Does binary search for k in array[0] … a[a.length - 1], sorted in ascending order.
+	// param k the integer value to be found
+	// Postcondition:  index has been returned such that a[index] == k.				   If k not in a, return -1.
+	public int binarySearch(int k)
+	{
+		int low = 0;
+		int high = a.length - 1;
+		while (low &lt;= high)
+		{
+			int mid = (low + high) / 2;
+			if (a[mid] == k)
+				return mid;	
+			else if (a[mid] &lt; k)
+				low = mid + 1;
+			else
+				high = mid - 1;
+		}
+		return -1;
+	}
+	
+A binary search will be performed on the following list.	
+	
+a[0]		a[1] 		a[2]		a[3]		a[4]		a[5]		a[6]         a[7]
+4		    7               9              11            20          24              30            41
+
+How many iterations will be required to determine that 27 is not in the list?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>0</string>
+				<string>4</string>
+				<string>7</string>
+				<string>20</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the binarySearch method and the private instance variable a for some class: 
+	
+	private int[] a;
+	
+	// Does binary search for k in array[0] … a[a.length - 1], sorted in ascending order.
+	// param k the integer value to be found
+	// Postcondition: index has been returned such that a[index] == k.				  If k not in a, return -1.
+	public int binarySearch(int k)
+	{
+		int low = 0;
+		int high = a.length - 1;
+		while (low &lt;= high)
+		{
+			int mid = (low + high) / 2;
+			if (a[mid] == k)
+				return mid;	
+			else if (a[mid] &lt; k)
+				low = mid + 1;
+			else
+				high = mid - 1;
+		}
+		return -1;
+	}
+	
+A binary search will be performed on the following list.	
+	
+a[0]		a[1] 		a[2]		a[3]		a[4]		a[5]		a[6]          a[7]
+4		    7               9              11            20          24              30            41
+
+What will be stored in z after executing the following?
+	
+	int z = binarySearch(4);
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>4</string>
+				<string>7</string>
+				<string>11</string>
+				<string>24</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the binarySearch method and the private instance variable a for some class:
+	
+	private int[] a;
+	
+	// Does binary search for k in array[0] … a[a.length - 1], sorted in ascending order.
+	// param k the integer value to be found
+	// Postcondition: index has been returned such that a[index] == k.				  If k not in a, return -1.
+	public int binarySearch(int k)
+	{
+		int low = 0;
+		int high = a.length - 1;
+		while (low &lt;= high)
+		{
+			int mid = (low + high) / 2;
+			if (a[mid] == k)
+				return mid;	
+			else if (a[mid] &lt; k)
+				low = mid + 1;
+			else
+				high = mid - 1;
+		}
+		return -1;
+	}
+	
+A binary search will be performed on the following list.	
+	
+a[0]		a[1] 		a[2]		a[3]		a[4]		a[5]		a[6]          a[7]
+4		    7               9              11            20          24              30            41
+
+If the test for the while loop is changed to 
+	
+	while (low &lt; high)
+		
+the binarySearch method does not work as intended. Which value in the given list will not be found?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>k = a[mid], or a[low] &lt;= k &lt;= a[high], or k is not in array a.</string>
+				<string>k = a[mid], or a[low] &lt;= k &lt;= a[high]</string>
+				<string>low &lt;= mid &lt;= high</string>
+				<string>a[low] &lt;= k &lt;= a[high]</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the binarySearch method and the private instance variable a for some class:
+	
+	private int[] a;
+	
+	// Does binary search for k in array[0] … a[a.length - 1], sorted in ascending order.
+	// param k the integer value to be found
+	// Postcondition: index has been returned such that a[index] == k.				  If k not in a, return -1.
+	public int binarySearch(int k)
+	{
+		int low = 0;
+		int high = a.length - 1;
+		while (low &lt;= high)
+		{
+			int mid = (low + high) / 2;
+			if (a[mid] == k)
+				return mid;	
+			else if (a[mid] &lt; k)
+				low = mid + 1;
+			else
+				high = mid - 1;
+		}
+		return -1;
+	}
+	
+A binary search will be performed on the following list.	
+	
+a[0]		a[1] 		a[2]		a[3]		a[4]		a[5]		a[6].        a[7]
+
+4		    7               9              11            20          24              30            41
+
+For binarySearch, which of the following assertions will be true following every iteration of the while loop?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>10</string>
+				<string>6</string>
+				<string>100</string>
+				<string>300</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A binary search is to be performed on an array with 600 elements. In the worst case, which of the following best approximates the number of iterations of the algorithm?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II only</string>
+				<string>I only</string>
+				<string>III only</string>
+				<string>I and II only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A worst case scenario for insertion sort would be 
+	
+	I. A list in correct sorted order.
+	II. A list sorted in reverse order.	
+	III. A list in random order.</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>20</string>
+				<string>6</string>
+				<string>100</string>
+				<string>120</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider a binary search algorithm to search an ordered list of numbers. Which of the following choices is closest to the maximum number of times that such an algorithm will execute its main comparison loop when searching a list of 1 million numbers?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II I III</string>
+				<string>II III I</string>
+				<string>III I II</string>
+				<string>I II III</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider these three tasks:
+	
+	I. A sequential search of an array of n names
+	II. A binary search of an array of n names in alphabetical order
+	III. An insertion sort into alphabetical order of an array of n names that are initially in random order
+
+For large n, which of the following lists these tasks in order (from least to greatest) of their average case run times?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>III only</string>
+				<string>II only</string>
+				<string>I only</string>
+				<string>I and II only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which of the following is a valid reason why merge sort is a better sorting algorithm than insertion sort for sorting long, randomly ordered lists?
+	
+		I. Mergesort requires less code than insertion sort.
+		II. Mergesort requires less storage space than insertion sort.
+		III. Mergesort runs faster than insertion sort.</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>7</string>
+				<string>25</string>
+				<string>50</string>
+				<string>10</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the Hi- Lo game below.
+	
+Consider the problem of writing a Hi-Lo game in which a user thinks of an integer from 1 to 100 inclusive and the computer tries to guess that number. Each time the computer makes  guess, the user makes one of three responses:
+	
+	“lower” (i.e., the number is lower than the computer’s guess)
+	“higher” (i.e., the number is higher than the computer’s guess)
+	“you got it in &lt;however many&gt; tries!”
+
+Suppose the game is programmed so that the computer uses a binary search strategy for making its guesses. What is the maximum number of guesses the computer should make before guessing the user’s number?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>100</string>
+				<string>99</string>
+				<string>50</string>
+				<string>25</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the Hi- Lo game below.
+	
+Consider the problem of writing a Hi-Lo game in which a user thinks of an integer from 1 to 100 inclusive and the computer tries to guess that number. Each time the computer makes  guess, the user makes one of three responses:
+	
+	“lower” (i.e., the number is lower than the computer’s guess)
+	“higher” (i.e., the number is higher than the computer’s guess)
+	“you got it in &lt;however many&gt; tries!”
+
+Suppose the computer used a sequential search strategy for guessing the user’s number. What is the maximum number of guesses the computer could make before guessing the user’s number?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>50</string>
+				<string>100</string>
+				<string>51</string>
+				<string>25</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the Hi- Lo game below.
+	
+Consider the problem of writing a Hi-Lo game in which a user thinks of an integer from 1 to 100 inclusive and the computer tries to guess that number. Each time the computer makes  guess, the user makes one of three responses:
+	
+	“lower” (i.e., the number is lower than the computer’s guess)
+	“higher” (i.e., the number is higher than the computer’s guess)
+	“you got it in &lt;however many&gt; tries!”
+
+Using a sequential search strategy, how many guesses on average would the computer need to guess the number?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>3, 7, 11, … until any letter in “a … d” is encountered. </string>
+				<string>0, 1, 2, … until any letter in “a … d” is encountered.</string>
+				<string>0, 1, 2, … until a “a” is encountered</string>
+				<string>3, 7, 11, … until an “a” is encountered.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A large array of lowercase characters is to be searched for the pattern “abcd.” The first step in a very efficient searching algorithm is to look at characters with index 
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>The list is in alphabetical order.  </string>
+				<string>There are no duplicate names in the list.</string>
+				<string>Name X occurs near the middle of the list.</string>
+				<string>Name X is definitely in the list.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>The array name[0], name[1], …, name[9999] is a list of 10, 000 name strings. The list is to be searched to determine the location of some name X in the list. Which of the following preconditions is necessary for a binary search?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Sequential search</string>
+				<string>binary search</string>
+				<string>Insertion sort</string>
+				<string>selection sort</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the following method:
+	
+	// Precondition: a[0], a[1] … a[n - 1] contain integers.
+	public static int something(int[] a, int n, int val)
+	{
+		if (n == 0)
+			return -1;
+		else
+		{
+			if (a[n - 1] == val)
+				return n - 1;
+			else
+				return something(a, n - 1, val);
+		}
+	}
+
+	The method shown is an example of	</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>1 3 2 3</string>
+				<string>2 4 3 4</string>
+				<string>1 5 8 11</string>
+				<string>1 5 8 12</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string> What is the output of the following code segment?
+	
+	String s = “How do you do?”;
+	int j = s.indexOf(“o”);
+	while (j &gt;= 0)
+	{
+		System.out.print(j + “ “);
+		s = s.substring(j + 1);
+		j = s.indexOf(“o”);
+	}</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>int j = (int) (Math.random() * response.length);          
+           return response[j];</string>
+				<string>int j = Math.random() * response.length;	
+		    return response[j];</string>
+				<string>int j = (int) (Math.random() * (response.length - 1));          
+		    return response[j];</string>
+				<string>return (int) (Math.random() * response.length);</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A program that simulates a conversation between a computer and a human user generates a random response to a user’s comment. All possible responses that the computer can generate are stored in an array of String called response. The method given below, getResponse, returns a random response string from the array.
+	
+	// Precondition: array response is initialized with strings.
+	// Postcondition: returns  a random response from response.
+	public String getResponse();
+	{ /* implementation */ }
+
+	Which is a correct /* implementation */?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>C. Average score. 
+D. Barely passing.
+</string>
+				<string>C. Average score.
+D. Barely passing.
+F. Failing score. </string>
+				<string>A. Congratulations!
+B. Good job.
+C. Average score.
+</string>
+				<string>C. Average score.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A student's test score can be any real number between 0 and 100. The intent of the following class is to print a student's score as a letter grade.
+
+	public class TestReport
+	{
+		private double score;
+
+		//Constructor. Sets score to the specified value.
+		public TestReport(double value)
+		{ score = value; }
+
+		//Prints grade and comment.
+		public void printGrade()
+		{
+			if (score &gt;= 90.0)
+				System.out.println("A. Congratulations!");
+			if (score &gt;= 80.0)
+				System.out.println("B. Good job.");
+			if (score &gt;= 70.0)
+				System.out.println("C. Average score.");
+			if (score &gt;= 60.0)
+				System.out.println("D. Barely passing.");
+			if (score &lt; 60.0)
+				System.out.println("F. Failing score.");
+		}
+	}
+
+Consider the following segment of a client program.
+
+	double testScore = IO.readInput();    //read user input
+	TestReport t = new TestReport(testScore);
+	t.printGrade();
+
+If the user inputs a test score of 75.0, what will be output?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>5D</string>
+				<string>D3</string>
+				<string>F3</string>
+				<string>8D3</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Suppose the characters 0, 1, ... , 8, 9, A, B, C, D, E, F are used to represent a hexadecimal (base-16) number. Here A = 10, B = 11,..., F = 15. Which of the following hexadecimal numbers represents the base-10 integer 93?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>II and III only</string>
+				<string>I only</string>
+				<string>II only</string>
+				<string>I, II, and III</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Suppose a and b are boolean variables. The expression
+
+	!a &amp;&amp; !b
+
+will evaluate to false whenever
+
+ 	I. a and b are both false.
+	II. a is false and b is true.
+ 	III. a is true and b is false.</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>total += amt;</string>
+				<string>getTotal() += amt;</string>
+				<string>total = amt;</string>
+				<string>return getTotal() + amt;</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the PiggyBank class below:
+
+public class PiggyBank
+{
+	private double total;
+	private boolean isFull;
+
+	//Increase total by amt.
+	public void incrementTotal(double amt)
+	{ /* implementation of incrementTotal */ }
+
+	//Change the value of isFull:
+	//If its current value is true, change it to false.
+	//If its current value is false, change it to true.
+	public void changePiggyState()
+	{ /* implementation of changePiggyState */ }
+
+	//Constructors and other methods not shown.
+}
+
+Assuming that the PiggyBank class has an accessor method getTotal that returns total, which is a correct /* implementation of incrementTotal */?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I and II only</string>
+				<string>II only</string>
+				<string>III only</string>
+				<string>I, II, and III</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the PiggyBank class below:
+
+public class PiggyBank
+{
+	private double total;
+	private boolean isFull;
+
+	//Increase total by amt.
+	public void incrementTotal(double amt)
+	{ /* implementation of incrementTotal */ }
+
+	//Change the value of isFull:
+	//If its current value is true, change it to false.
+	//If its current value is false, change it to true.
+	public void changePiggyState()
+	{ /* implementation of changePiggyState */ }
+
+	//Constructors and other methods not shown.
+}
+
+Which is a correct /* implementation of changePiggyState */?
+
+        I. if (isFull)
+		isFull = false;
+	   else
+		isFull = true;
+
+	II. isFull = !isFull;
+
+	III. if (isFull)
+		isFull = !isFull;
+                </string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>10</string>
+				<string>100</string>
+				<string>9</string>
+				<string>250</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the problem of writing a game in which a user thinks of an integer from 1 to 1000 inclusive and the computer tries to guess that number. Each time the computer makes a guess, the user makes one of three responses:
+
+	•	"lower" (i.e., the number is lower than the computer's guess)
+	•	"higher" (i.e., the number is higher than the computer's guess)
+	•	"you got it in &lt; however many &gt; tries!"
+
+Suppose the game is programmed so that the computer uses a binary search strategy for making its guesses. What is the maximum number of guesses the computer could make before guessing the user's number?
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>1000</string>
+				<string>250</string>
+				<string>500</string>
+				<string>750</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Consider the problem of writing a game in which a user thinks of an integer from 1 to 1000 inclusive and the computer tries to guess that number. Each time the computer makes a guess, the user makes one of three responses:
+
+	•	"lower" (i.e., the number is lower than the computer's guess)
+	•	"higher" (i.e., the number is higher than the computer's guess)
+	•	"you got it in &lt; however many &gt; tries!"
+
+Suppose the computer starts by guessing a random integer between 1 and 1000, and then uses a sequential search strategy to find the user's number. What is the maximum number of guesses the computer could make before guessing the user's number?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>Accessor methods in an object may be static, depending on the value that’s been accessed.</string>
+				<string>A static method cannot be invoked by an object of a class.</string>
+				<string>All methods in a driver class that has a main method should be static.</string>
+				<string>If a class is such that it doesn’t make sense to ever create an object of the class, then all methods of that class should be static.</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which is a false statement about static methods?</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>double x = 10*Math.random() + 20;</string>
+				<string>double x = Math.random(20) + 10;</string>
+				<string>double x = 20*Math.random() + 10;</string>
+				<string>double x = Math.random(30) -10;</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>A programmer needs to produce a random real value x in the range 20.0 ≤ x &lt; 30.0. A statement that does this correctly is</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I, II, and III</string>
+				<string>I only</string>
+				<string>I and II only</string>
+				<string>II only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following class definitions:
+
+        public interface Flyer
+	{ void fly(); }
+
+	public class Bird implements Flyer
+	{
+		public void fly()
+		{ /* implementation not shown */ }
+
+		//Private instance variables and other methods not shown.
+	}
+
+	public class Sparrow extends Bird
+	{
+		public void flyLow(Sparrow other)
+		{ /* implementation not shown */ }
+
+		//Private instance variables and other methods not shown.
+	}
+
+	Assuming that both Bird and Sparrow have default constructors, which is (are) valid in a client class?
+
+ 	I. Flyer f1 = new Bird();
+
+ 	II. Bird b = new Sparrow();
+
+ 	III. Flyer f2 = new Sparrow();
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>I only</string>
+				<string>II and III only</string>
+				<string>I, II, and III</string>
+				<string>II only</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Refer to the following class definitions:
+
+        public interface Flyer
+	{ void fly(); }
+
+	public class Bird implements Flyer
+	{
+		public void fly()
+		{ /* implementation not shown */ }
+
+		//Private instance variables and other methods not shown.
+	}
+
+	public class Sparrow extends Bird
+	{
+		public void flyLow(Sparrow other)
+		{ /* implementation not shown */ }
+
+		//Private instance variables and other methods not shown.
+	}
+
+	Consider the following declarations in a client class.
+
+		Sparrow s = new Sparrow();
+		Bird b = new Bird();
+
+	Which method calls would be legal?
+
+ 		I. s.fly();
+
+ 		II. b.flyLow(s);
+
+ 		III. s.flyLow(b);
+</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Answer</key>
+			<string>0</string>
+			<key>duration_in_seconds</key>
+			<string>30</string>
+			<key>negative_points</key>
+			<string>0</string>
+			<key>options</key>
+			<array>
+				<string>It prints string s.</string>
+				<string>It prints string s in reverse order.</string>
+				<string>It prints only the first two characters of string s.</string>
+				<string>It prints only the first character of string s.
+</string>
+			</array>
+			<key>points</key>
+			<string>20</string>
+			<key>question</key>
+			<string>Which best describes what the printSomething method below does?
+
+public void printSomething(String s)
+{
+	if (s.length() &gt; 0)
+	{
+		System.out.print(s.substring(0, 1));
+		printSomething(s.substring(1));
+	}
+}</string>
+			<key>question_type</key>
+			<string>1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

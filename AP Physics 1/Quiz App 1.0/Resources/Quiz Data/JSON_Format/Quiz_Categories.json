@@ -1,0 +1,27 @@
+{
+    "Categories":[
+        
+                    {
+                             "category_color":"#a9f5bd",
+                             "category_id":"1",
+                             "category_name":"AP Physics 1 Practice Test 1",
+                             "category_description":"",
+                             "timer_required":true,
+                             "category_questions_max_limit":"0",
+                             "remainingSeconds": "5400"
+                    },
+                    {
+                        "category_color":"#fdf5e6",
+                        "category_id":"2",
+                        "category_name":"AP Physics 1 Practice Test 2",
+                        "category_description":"",
+                        "timer_required":true,
+                        "category_questions_max_limit":"0",
+                        "remainingSeconds": "5400"
+                    }
+            
+            ]
+    }
+
+    
+

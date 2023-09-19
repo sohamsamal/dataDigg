@@ -1,0 +1,27 @@
+{
+    "Categories":[
+        
+                    {
+                             "category_color":"#d3ffce",
+                             "category_id":"1",
+                             "category_name":"AP Macroeconomics Practice Test 1",
+                             "category_description":"",
+                             "timer_required":true,
+                             "category_questions_max_limit":"0",
+                             "remainingSeconds": "3600"
+                    },
+                    {
+                        "category_color":"#fdf5e6",
+                        "category_id":"2",
+                        "category_name":"AP Macroeconomics Practice Test 2",
+                        "category_description":"",
+                        "timer_required":true,
+                        "category_questions_max_limit":"0",
+                        "remainingSeconds": "3600"
+                    }
+            
+            ]
+    }
+
+    
+
